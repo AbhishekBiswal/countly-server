@@ -1,0 +1,77 @@
+
+   ______                  __  __
+  / ____/___  __  ______  / /_/ /_  __
+ / /   / __ \/ / / / __ \/ __/ / / / /
+/ /___/ /_/ / /_/ / / / / /_/ / /_/ /
+\____/\____/\__,_/_/ /_/\__/_/\__, /
+              http://count.ly/____/
+
+Hit:1 http://repository.spotify.com stable InRelease
+Get:2 http://download.virtualbox.org/virtualbox/debian xenial InRelease [7,877 B]
+Ign:2 http://download.virtualbox.org/virtualbox/debian xenial InRelease
+Hit:3 http://ppa.launchpad.net/gerardpuig/ppa/ubuntu xenial InRelease
+Hit:5 http://ppa.launchpad.net/nathan-renniewaldock/flux/ubuntu xenial InRelease
+Hit:6 http://ppa.launchpad.net/nilarimogard/webupd8/ubuntu xenial InRelease
+Hit:7 http://ppa.launchpad.net/numix/ppa/ubuntu xenial InRelease
+Ign:8 http://ppa.launchpad.net/tualatrix/ppa/ubuntu xenial InRelease
+Ign:4 http://toolbelt.heroku.com/ubuntu ./ InRelease
+Hit:9 http://ppa.launchpad.net/ubuntu-wine/ppa/ubuntu xenial InRelease
+Hit:10 http://ppa.launchpad.net/webupd8team/atom/ubuntu xenial InRelease
+Hit:12 http://ppa.launchpad.net/webupd8team/haguichi/ubuntu xenial InRelease
+Hit:11 http://toolbelt.heroku.com/ubuntu ./ Release
+Get:13 https://fman.io/updates/ubuntu stable InRelease [1,800 B]
+Hit:13 https://fman.io/updates/ubuntu stable InRelease
+Hit:15 http://ppa.launchpad.net/webupd8team/sublime-text-3/ubuntu xenial InRelease
+Ign:16 http://ppa.launchpad.net/tualatrix/ppa/ubuntu xenial Release
+Ign:17 http://ppa.launchpad.net/tualatrix/ppa/ubuntu xenial/main amd64 Packages
+Hit:18 https://packagecloud.io/slacktechnologies/slack/debian jessie InRelease
+Ign:19 http://ppa.launchpad.net/tualatrix/ppa/ubuntu xenial/main i386 Packages
+Ign:20 http://ppa.launchpad.net/tualatrix/ppa/ubuntu xenial/main all Packages
+Ign:21 http://ppa.launchpad.net/tualatrix/ppa/ubuntu xenial/main Translation-en_IN
+Ign:22 http://ppa.launchpad.net/tualatrix/ppa/ubuntu xenial/main Translation-en
+Ign:23 http://ppa.launchpad.net/tualatrix/ppa/ubuntu xenial/main amd64 DEP-11 Metadata
+Ign:24 http://ppa.launchpad.net/tualatrix/ppa/ubuntu xenial/main DEP-11 64x64 Icons
+Ign:17 http://ppa.launchpad.net/tualatrix/ppa/ubuntu xenial/main amd64 Packages
+Ign:19 http://ppa.launchpad.net/tualatrix/ppa/ubuntu xenial/main i386 Packages
+Ign:20 http://ppa.launchpad.net/tualatrix/ppa/ubuntu xenial/main all Packages
+Ign:21 http://ppa.launchpad.net/tualatrix/ppa/ubuntu xenial/main Translation-en_IN
+Ign:22 http://ppa.launchpad.net/tualatrix/ppa/ubuntu xenial/main Translation-en
+Ign:23 http://ppa.launchpad.net/tualatrix/ppa/ubuntu xenial/main amd64 DEP-11 Metadata
+Ign:24 http://ppa.launchpad.net/tualatrix/ppa/ubuntu xenial/main DEP-11 64x64 Icons
+Ign:17 http://ppa.launchpad.net/tualatrix/ppa/ubuntu xenial/main amd64 Packages
+Ign:19 http://ppa.launchpad.net/tualatrix/ppa/ubuntu xenial/main i386 Packages
+Ign:20 http://ppa.launchpad.net/tualatrix/ppa/ubuntu xenial/main all Packages
+Ign:21 http://ppa.launchpad.net/tualatrix/ppa/ubuntu xenial/main Translation-en_IN
+Ign:22 http://ppa.launchpad.net/tualatrix/ppa/ubuntu xenial/main Translation-en
+Ign:23 http://ppa.launchpad.net/tualatrix/ppa/ubuntu xenial/main amd64 DEP-11 Metadata
+Ign:24 http://ppa.launchpad.net/tualatrix/ppa/ubuntu xenial/main DEP-11 64x64 Icons
+Ign:17 http://ppa.launchpad.net/tualatrix/ppa/ubuntu xenial/main amd64 Packages
+Ign:19 http://ppa.launchpad.net/tualatrix/ppa/ubuntu xenial/main i386 Packages
+Ign:20 http://ppa.launchpad.net/tualatrix/ppa/ubuntu xenial/main all Packages
+Ign:21 http://ppa.launchpad.net/tualatrix/ppa/ubuntu xenial/main Translation-en_IN
+Ign:22 http://ppa.launchpad.net/tualatrix/ppa/ubuntu xenial/main Translation-en
+Ign:23 http://ppa.launchpad.net/tualatrix/ppa/ubuntu xenial/main amd64 DEP-11 Metadata
+Ign:24 http://ppa.launchpad.net/tualatrix/ppa/ubuntu xenial/main DEP-11 64x64 Icons
+Ign:17 http://ppa.launchpad.net/tualatrix/ppa/ubuntu xenial/main amd64 Packages
+Ign:19 http://ppa.launchpad.net/tualatrix/ppa/ubuntu xenial/main i386 Packages
+Ign:20 http://ppa.launchpad.net/tualatrix/ppa/ubuntu xenial/main all Packages
+Ign:21 http://ppa.launchpad.net/tualatrix/ppa/ubuntu xenial/main Translation-en_IN
+Ign:22 http://ppa.launchpad.net/tualatrix/ppa/ubuntu xenial/main Translation-en
+Ign:23 http://ppa.launchpad.net/tualatrix/ppa/ubuntu xenial/main amd64 DEP-11 Metadata
+Ign:24 http://ppa.launchpad.net/tualatrix/ppa/ubuntu xenial/main DEP-11 64x64 Icons
+Err:17 http://ppa.launchpad.net/tualatrix/ppa/ubuntu xenial/main amd64 Packages
+  404  Not Found
+Ign:19 http://ppa.launchpad.net/tualatrix/ppa/ubuntu xenial/main i386 Packages
+Ign:20 http://ppa.launchpad.net/tualatrix/ppa/ubuntu xenial/main all Packages
+Ign:21 http://ppa.launchpad.net/tualatrix/ppa/ubuntu xenial/main Translation-en_IN
+Ign:22 http://ppa.launchpad.net/tualatrix/ppa/ubuntu xenial/main Translation-en
+Ign:23 http://ppa.launchpad.net/tualatrix/ppa/ubuntu xenial/main amd64 DEP-11 Metadata
+Ign:24 http://ppa.launchpad.net/tualatrix/ppa/ubuntu xenial/main DEP-11 64x64 Icons
+Ign:25 http://dl.google.com/linux/chrome/deb stable InRelease
+Ign:26 http://download.opensuse.org/repositories/home:/Horst3180/xUbuntu_16.04  InRelease
+Hit:27 http://dl.google.com/linux/chrome/deb stable Release
+Get:29 http://download.opensuse.org/repositories/home:/Horst3180/xUbuntu_16.04  Release [1,007 B]
+Get:30 http://download.opensuse.org/repositories/home:/Horst3180/xUbuntu_16.04  Release.gpg [481 B]
+Ign:30 http://download.opensuse.org/repositories/home:/Horst3180/xUbuntu_16.04  Release.gpg
+Hit:31 http://download.opensuse.org/repositories/home:/Horst3180/xUbuntu_16.04  Packages
+Hit:32 http://archive.canonical.com/ubuntu xenial InRelease

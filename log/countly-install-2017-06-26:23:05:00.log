@@ -1,0 +1,555 @@
+
+   ______                  __  __
+  / ____/___  __  ______  / /_/ /_  __
+ / /   / __ \/ / / / __ \/ __/ / / / /
+/ /___/ /_/ / /_/ / / / / /_/ / /_/ /
+\____/\____/\__,_/_/ /_/\__/_/\__, /
+              http://count.ly/____/
+
+Get:1 http://download.virtualbox.org/virtualbox/debian xenial InRelease [7,877 B]
+Get:2 http://security.ubuntu.com/ubuntu xenial-security InRelease [102 kB]
+Hit:3 http://in.archive.ubuntu.com/ubuntu xenial InRelease
+Ign:4 http://dl.google.com/linux/chrome/deb stable InRelease
+Hit:5 http://dl.yarnpkg.com/debian stable InRelease
+Hit:6 http://archive.canonical.com/ubuntu xenial InRelease
+Hit:7 http://ppa.launchpad.net/gerardpuig/ppa/ubuntu xenial InRelease
+Ign:1 http://download.virtualbox.org/virtualbox/debian xenial InRelease
+Get:8 http://dl.google.com/linux/chrome/deb stable Release [1,189 B]
+Get:9 http://in.archive.ubuntu.com/ubuntu xenial-updates InRelease [102 kB]
+Get:10 http://ppa.launchpad.net/linuxgndu/sqlitebrowser/ubuntu xenial InRelease [17.6 kB]
+Ign:11 http://download.opensuse.org/repositories/home:/Horst3180/xUbuntu_16.04  InRelease
+Get:12 http://dl.google.com/linux/chrome/deb stable Release.gpg [916 B]
+Get:14 http://download.opensuse.org/repositories/home:/Horst3180/xUbuntu_16.04  Release [1,007 B]
+Hit:15 http://repository.spotify.com stable InRelease
+Get:16 http://dl.google.com/linux/chrome/deb stable/main amd64 Packages [1,400 B]
+Hit:17 http://ppa.launchpad.net/nathan-renniewaldock/flux/ubuntu xenial InRelease
+Get:18 http://download.opensuse.org/repositories/home:/Horst3180/xUbuntu_16.04  Release.gpg [481 B]
+Get:19 http://security.ubuntu.com/ubuntu xenial-security/main Sources [77.8 kB]
+Hit:20 http://ppa.launchpad.net/nilarimogard/webupd8/ubuntu xenial InRelease
+Get:21 http://in.archive.ubuntu.com/ubuntu xenial-backports InRelease [102 kB]
+Ign:18 http://download.opensuse.org/repositories/home:/Horst3180/xUbuntu_16.04  Release.gpg
+Hit:22 http://ppa.launchpad.net/numix/ppa/ubuntu xenial InRelease
+Get:23 https://fman.io/updates/ubuntu stable InRelease [1,800 B]
+Hit:23 https://fman.io/updates/ubuntu stable InRelease
+Hit:24 http://download.opensuse.org/repositories/home:/Horst3180/xUbuntu_16.04  Packages
+Hit:25 http://ppa.launchpad.net/ubuntu-wine/ppa/ubuntu xenial InRelease
+Get:26 http://security.ubuntu.com/ubuntu xenial-security/main amd64 Packages [291 kB]
+Get:27 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 DEP-11 Metadata [299 kB]
+Hit:28 http://ppa.launchpad.net/webupd8team/atom/ubuntu xenial InRelease
+Ign:13 http://toolbelt.heroku.com/ubuntu ./ InRelease
+Hit:29 http://ppa.launchpad.net/webupd8team/haguichi/ubuntu xenial InRelease
+Hit:31 http://ppa.launchpad.net/webupd8team/sublime-text-3/ubuntu xenial InRelease
+Get:32 http://ppa.launchpad.net/linuxgndu/sqlitebrowser/ubuntu xenial/main amd64 Packages [584 B]
+Get:33 http://ppa.launchpad.net/linuxgndu/sqlitebrowser/ubuntu xenial/main i386 Packages [580 B]
+Get:34 http://ppa.launchpad.net/linuxgndu/sqlitebrowser/ubuntu xenial/main Translation-en [620 B]
+Get:35 http://security.ubuntu.com/ubuntu xenial-security/main i386 Packages [276 kB]
+Hit:30 http://toolbelt.heroku.com/ubuntu ./ Release
+Get:37 http://in.archive.ubuntu.com/ubuntu xenial-updates/main DEP-11 64x64 Icons [193 kB]
+Get:38 http://security.ubuntu.com/ubuntu xenial-security/universe amd64 Packages [140 kB]
+Get:39 http://in.archive.ubuntu.com/ubuntu xenial-updates/universe amd64 DEP-11 Metadata [163 kB]
+Get:40 http://security.ubuntu.com/ubuntu xenial-security/universe i386 Packages [125 kB]
+Hit:41 https://packagecloud.io/slacktechnologies/slack/debian jessie InRelease
+Get:42 http://in.archive.ubuntu.com/ubuntu xenial-updates/universe DEP-11 64x64 Icons [203 kB]
+Get:43 http://in.archive.ubuntu.com/ubuntu xenial-updates/multiverse amd64 DEP-11 Metadata [2,520 B]
+Get:44 http://in.archive.ubuntu.com/ubuntu xenial-backports/main amd64 DEP-11 Metadata [3,328 B]
+Get:45 http://in.archive.ubuntu.com/ubuntu xenial-backports/universe amd64 DEP-11 Metadata [4,672 B]
+Fetched 2,117 kB in 8s (237 kB/s)
+Reading package lists...
+W: GPG error: http://download.virtualbox.org/virtualbox/debian xenial InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY A2F683C52980AECF
+W: The repository 'http://download.virtualbox.org/virtualbox/debian xenial InRelease' is not signed.
+W: GPG error: http://download.opensuse.org/repositories/home:/Horst3180/xUbuntu_16.04  Release: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 5A7D1D38BEB6D886
+W: The repository 'http://download.opensuse.org/repositories/home:/Horst3180/xUbuntu_16.04  Release' is not signed.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+build-essential is already the newest version (12.1ubuntu2).
+git is already the newest version (1:2.7.4-0ubuntu1.1).
+libkrb5-dev is already the newest version (1.13.2+dfsg-5ubuntu2).
+wget is already the newest version (1.17.1-1ubuntu1.2).
+python-software-properties is already the newest version (0.96.20.7).
+The following packages were automatically installed and are no longer required:
+  libjpeg62:i386 libmuparser2v5 libqt5concurrent5 libxtst6:i386
+  ubuntu-core-launcher
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 242 not upgraded.
+
+## Installing the NodeSource Node.js v6.x repo...
+
+
+## Populating apt-get cache...
+
++ apt-get update
+Get:1 http://download.virtualbox.org/virtualbox/debian xenial InRelease [7,877 B]
+Hit:2 http://dl.yarnpkg.com/debian stable InRelease
+Ign:1 http://download.virtualbox.org/virtualbox/debian xenial InRelease
+Ign:3 http://dl.google.com/linux/chrome/deb stable InRelease
+Hit:4 http://ppa.launchpad.net/gerardpuig/ppa/ubuntu xenial InRelease
+Hit:5 http://security.ubuntu.com/ubuntu xenial-security InRelease
+Hit:6 http://dl.google.com/linux/chrome/deb stable Release
+Hit:7 http://in.archive.ubuntu.com/ubuntu xenial InRelease
+Hit:8 http://archive.canonical.com/ubuntu xenial InRelease
+Hit:9 http://ppa.launchpad.net/linuxgndu/sqlitebrowser/ubuntu xenial InRelease
+Hit:10 http://repository.spotify.com stable InRelease
+Hit:11 http://in.archive.ubuntu.com/ubuntu xenial-updates InRelease
+Ign:12 http://download.opensuse.org/repositories/home:/Horst3180/xUbuntu_16.04  InRelease
+Hit:14 http://ppa.launchpad.net/nathan-renniewaldock/flux/ubuntu xenial InRelease
+Hit:15 http://in.archive.ubuntu.com/ubuntu xenial-backports InRelease
+Hit:17 http://download.opensuse.org/repositories/home:/Horst3180/xUbuntu_16.04  Release
+Hit:18 http://ppa.launchpad.net/nilarimogard/webupd8/ubuntu xenial InRelease
+Hit:19 http://ppa.launchpad.net/numix/ppa/ubuntu xenial InRelease
+Get:20 http://download.opensuse.org/repositories/home:/Horst3180/xUbuntu_16.04  Release.gpg [481 B]
+Hit:21 http://ppa.launchpad.net/ubuntu-wine/ppa/ubuntu xenial InRelease
+Hit:22 http://ppa.launchpad.net/webupd8team/atom/ubuntu xenial InRelease
+Get:23 https://fman.io/updates/ubuntu stable InRelease [1,800 B]
+Hit:23 https://fman.io/updates/ubuntu stable InRelease
+Hit:24 http://ppa.launchpad.net/webupd8team/haguichi/ubuntu xenial InRelease
+Hit:25 http://ppa.launchpad.net/webupd8team/sublime-text-3/ubuntu xenial InRelease
+Ign:16 http://toolbelt.heroku.com/ubuntu ./ InRelease
+Ign:20 http://download.opensuse.org/repositories/home:/Horst3180/xUbuntu_16.04  Release.gpg
+Hit:26 http://toolbelt.heroku.com/ubuntu ./ Release
+Hit:28 https://packagecloud.io/slacktechnologies/slack/debian jessie InRelease
+Fetched 8,358 B in 4s (1,907 B/s)
+Reading package lists...
+W: GPG error: http://download.virtualbox.org/virtualbox/debian xenial InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY A2F683C52980AECF
+W: The repository 'http://download.virtualbox.org/virtualbox/debian xenial InRelease' is not signed.
+W: GPG error: http://download.opensuse.org/repositories/home:/Horst3180/xUbuntu_16.04  Release: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 5A7D1D38BEB6D886
+W: The repository 'http://download.opensuse.org/repositories/home:/Horst3180/xUbuntu_16.04  Release' is not signed.
+
+## Confirming "xenial" is supported...
+
++ curl -sLf -o /dev/null 'https://deb.nodesource.com/node_6.x/dists/xenial/Release'
+
+## Adding the NodeSource signing key to your keyring...
+
++ curl -s https://deb.nodesource.com/gpgkey/nodesource.gpg.key | apt-key add -
+OK
+
+## Creating apt sources list file for the NodeSource Node.js v6.x repo...
+
++ echo 'deb https://deb.nodesource.com/node_6.x xenial main' > /etc/apt/sources.list.d/nodesource.list
++ echo 'deb-src https://deb.nodesource.com/node_6.x xenial main' >> /etc/apt/sources.list.d/nodesource.list
+
+## Running `apt-get update` for you...
+
++ apt-get update
+Get:1 http://download.virtualbox.org/virtualbox/debian xenial InRelease [7,877 B]
+Ign:2 http://dl.google.com/linux/chrome/deb stable InRelease
+Ign:1 http://download.virtualbox.org/virtualbox/debian xenial InRelease
+Hit:3 http://dl.yarnpkg.com/debian stable InRelease
+Hit:4 http://dl.google.com/linux/chrome/deb stable Release
+Hit:5 http://security.ubuntu.com/ubuntu xenial-security InRelease
+Hit:6 http://archive.canonical.com/ubuntu xenial InRelease
+Hit:7 http://in.archive.ubuntu.com/ubuntu xenial InRelease
+Hit:8 http://ppa.launchpad.net/gerardpuig/ppa/ubuntu xenial InRelease
+Hit:9 http://repository.spotify.com stable InRelease
+Ign:11 http://download.opensuse.org/repositories/home:/Horst3180/xUbuntu_16.04  InRelease
+Hit:12 http://in.archive.ubuntu.com/ubuntu xenial-updates InRelease
+Hit:13 http://ppa.launchpad.net/linuxgndu/sqlitebrowser/ubuntu xenial InRelease
+Get:14 http://download.opensuse.org/repositories/home:/Horst3180/xUbuntu_16.04  Release [1,007 B]
+Hit:16 http://in.archive.ubuntu.com/ubuntu xenial-backports InRelease
+Hit:17 http://ppa.launchpad.net/nathan-renniewaldock/flux/ubuntu xenial InRelease
+Hit:18 http://ppa.launchpad.net/nilarimogard/webupd8/ubuntu xenial InRelease
+Get:19 http://download.opensuse.org/repositories/home:/Horst3180/xUbuntu_16.04  Release.gpg [481 B]
+Hit:20 http://ppa.launchpad.net/numix/ppa/ubuntu xenial InRelease
+Hit:21 http://ppa.launchpad.net/ubuntu-wine/ppa/ubuntu xenial InRelease
+Hit:22 http://ppa.launchpad.net/webupd8team/atom/ubuntu xenial InRelease
+Get:23 https://deb.nodesource.com/node_6.x xenial InRelease [4,634 B]
+Ign:19 http://download.opensuse.org/repositories/home:/Horst3180/xUbuntu_16.04  Release.gpg
+Ign:15 http://toolbelt.heroku.com/ubuntu ./ InRelease
+Hit:24 http://ppa.launchpad.net/webupd8team/haguichi/ubuntu xenial InRelease
+Hit:25 http://download.opensuse.org/repositories/home:/Horst3180/xUbuntu_16.04  Packages
+Get:26 https://fman.io/updates/ubuntu stable InRelease [1,800 B]
+Hit:27 http://ppa.launchpad.net/webupd8team/sublime-text-3/ubuntu xenial InRelease
+Hit:26 https://fman.io/updates/ubuntu stable InRelease
+Hit:28 http://toolbelt.heroku.com/ubuntu ./ Release
+Get:30 https://deb.nodesource.com/node_6.x xenial/main Sources [764 B]
+Get:31 https://deb.nodesource.com/node_6.x xenial/main amd64 Packages [962 B]
+Get:32 https://deb.nodesource.com/node_6.x xenial/main i386 Packages [961 B]
+Hit:33 https://packagecloud.io/slacktechnologies/slack/debian jessie InRelease
+Fetched 16.7 kB in 5s (2,951 B/s)
+Reading package lists...
+W: GPG error: http://download.virtualbox.org/virtualbox/debian xenial InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY A2F683C52980AECF
+W: The repository 'http://download.virtualbox.org/virtualbox/debian xenial InRelease' is not signed.
+W: GPG error: http://download.opensuse.org/repositories/home:/Horst3180/xUbuntu_16.04  Release: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 5A7D1D38BEB6D886
+W: The repository 'http://download.opensuse.org/repositories/home:/Horst3180/xUbuntu_16.04  Release' is not signed.
+
+## Run `apt-get install nodejs` (as root) to install Node.js v6.x and npm
+
+Get:1 http://download.virtualbox.org/virtualbox/debian xenial InRelease [7,877 B]
+Ign:1 http://download.virtualbox.org/virtualbox/debian xenial InRelease
+Hit:2 http://dl.yarnpkg.com/debian stable InRelease
+Hit:3 http://security.ubuntu.com/ubuntu xenial-security InRelease
+Hit:4 http://archive.canonical.com/ubuntu xenial InRelease
+Ign:5 http://dl.google.com/linux/chrome/deb stable InRelease
+Hit:6 http://ppa.launchpad.net/gerardpuig/ppa/ubuntu xenial InRelease
+Hit:7 http://in.archive.ubuntu.com/ubuntu xenial InRelease
+Ign:8 http://download.opensuse.org/repositories/home:/Horst3180/xUbuntu_16.04  InRelease
+Hit:9 http://repository.spotify.com stable InRelease
+Hit:10 http://dl.google.com/linux/chrome/deb stable Release
+Hit:11 https://deb.nodesource.com/node_6.x xenial InRelease
+Hit:12 http://ppa.launchpad.net/linuxgndu/sqlitebrowser/ubuntu xenial InRelease
+Hit:13 http://in.archive.ubuntu.com/ubuntu xenial-updates InRelease
+Hit:14 http://download.opensuse.org/repositories/home:/Horst3180/xUbuntu_16.04  Release
+Hit:15 http://ppa.launchpad.net/nathan-renniewaldock/flux/ubuntu xenial InRelease
+Hit:16 http://in.archive.ubuntu.com/ubuntu xenial-backports InRelease
+Hit:18 http://ppa.launchpad.net/nilarimogard/webupd8/ubuntu xenial InRelease
+Get:19 http://download.opensuse.org/repositories/home:/Horst3180/xUbuntu_16.04  Release.gpg [481 B]
+Hit:21 http://ppa.launchpad.net/numix/ppa/ubuntu xenial InRelease
+Hit:22 http://ppa.launchpad.net/ubuntu-wine/ppa/ubuntu xenial InRelease
+Get:23 https://fman.io/updates/ubuntu stable InRelease [1,800 B]
+Hit:23 https://fman.io/updates/ubuntu stable InRelease
+Hit:24 http://ppa.launchpad.net/webupd8team/atom/ubuntu xenial InRelease
+Ign:19 http://download.opensuse.org/repositories/home:/Horst3180/xUbuntu_16.04  Release.gpg
+Ign:17 http://toolbelt.heroku.com/ubuntu ./ InRelease
+Hit:25 http://ppa.launchpad.net/webupd8team/haguichi/ubuntu xenial InRelease
+Hit:26 http://ppa.launchpad.net/webupd8team/sublime-text-3/ubuntu xenial InRelease
+Hit:27 http://toolbelt.heroku.com/ubuntu ./ Release
+Hit:29 https://packagecloud.io/slacktechnologies/slack/debian jessie InRelease
+Fetched 8,358 B in 4s (2,051 B/s)
+Reading package lists...
+W: GPG error: http://download.virtualbox.org/virtualbox/debian xenial InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY A2F683C52980AECF
+W: The repository 'http://download.virtualbox.org/virtualbox/debian xenial InRelease' is not signed.
+W: GPG error: http://download.opensuse.org/repositories/home:/Horst3180/xUbuntu_16.04  Release: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 5A7D1D38BEB6D886
+W: The repository 'http://download.opensuse.org/repositories/home:/Horst3180/xUbuntu_16.04  Release' is not signed.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+g++-4.8 is already the newest version (4.8.5-4ubuntu2).
+gcc-4.8 is already the newest version (4.8.5-4ubuntu2).
+The following packages were automatically installed and are no longer required:
+  libjpeg62:i386 libmuparser2v5 libqt5concurrent5 libxtst6:i386
+  ubuntu-core-launcher
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 243 not upgraded.
+update-alternatives: using /usr/bin/g++-4.8 to provide /usr/bin/g++ (g++) in auto mode
+g++ (Ubuntu 4.8.5-4ubuntu2) 4.8.5
+Copyright (C) 2015 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages were automatically installed and are no longer required:
+  libjpeg62:i386 libmuparser2v5 libqt5concurrent5 libxtst6:i386
+  ubuntu-core-launcher
+Use 'sudo apt autoremove' to remove them.
+The following additional packages will be installed:
+  nginx-common nginx-core
+Suggested packages:
+  fcgiwrap nginx-doc
+The following NEW packages will be installed:
+  nginx nginx-common nginx-core
+0 upgraded, 3 newly installed, 0 to remove and 243 not upgraded.
+Need to get 458 kB of archives.
+After this operation, 1,482 kB of additional disk space will be used.
+Get:1 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 nginx-common all 1.10.0-0ubuntu0.16.04.4 [26.6 kB]
+Get:2 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 nginx-core amd64 1.10.0-0ubuntu0.16.04.4 [428 kB]
+Get:3 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 nginx all 1.10.0-0ubuntu0.16.04.4 [3,498 B]
+Preconfiguring packages ...
+Fetched 458 kB in 3s (147 kB/s)
+Selecting previously unselected package nginx-common.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 330453 files and directories currently installed.)
+Preparing to unpack .../nginx-common_1.10.0-0ubuntu0.16.04.4_all.deb ...
+Unpacking nginx-common (1.10.0-0ubuntu0.16.04.4) ...
+Selecting previously unselected package nginx-core.
+Preparing to unpack .../nginx-core_1.10.0-0ubuntu0.16.04.4_amd64.deb ...
+Unpacking nginx-core (1.10.0-0ubuntu0.16.04.4) ...
+Selecting previously unselected package nginx.
+Preparing to unpack .../nginx_1.10.0-0ubuntu0.16.04.4_all.deb ...
+Unpacking nginx (1.10.0-0ubuntu0.16.04.4) ...
+Processing triggers for ufw (0.35-0ubuntu2) ...
+Processing triggers for ureadahead (0.100.0-19) ...
+ureadahead will be reprofiled on next reboot
+Processing triggers for systemd (229-4ubuntu16) ...
+Setting up nginx-common (1.10.0-0ubuntu0.16.04.4) ...
+Setting up nginx-core (1.10.0-0ubuntu0.16.04.4) ...
+Setting up nginx (1.10.0-0ubuntu0.16.04.4) ...
+Processing triggers for systemd (229-4ubuntu16) ...
+Processing triggers for ureadahead (0.100.0-19) ...
+Processing triggers for ufw (0.35-0ubuntu2) ...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages were automatically installed and are no longer required:
+  gyp libjpeg62:i386 libjs-inherits libjs-node-uuid libmuparser2v5
+  libqt5concurrent5 libssl-dev libssl-doc libuv1 libuv1-dev libxtst6:i386
+  node-abbrev node-ansi node-ansi-color-table node-archy node-async
+  node-block-stream node-combined-stream node-cookie-jar node-delayed-stream
+  node-forever-agent node-form-data node-fstream node-fstream-ignore
+  node-github-url-from-git node-glob node-graceful-fs node-gyp node-inherits
+  node-ini node-json-stringify-safe node-lockfile node-lru-cache node-mime
+  node-minimatch node-mkdirp node-mute-stream node-node-uuid node-nopt
+  node-normalize-package-data node-npmlog node-once node-osenv node-qs
+  node-read node-read-package-json node-request node-retry node-rimraf
+  node-semver node-sha node-sigmund node-slide node-tar node-tunnel-agent
+  node-underscore node-which ubuntu-core-launcher
+Use 'sudo apt autoremove' to remove them.
+The following packages will be REMOVED:
+  nodejs-dev npm
+The following packages will be upgraded:
+  nodejs
+1 upgraded, 0 newly installed, 2 to remove and 242 not upgraded.
+Need to get 10.1 MB of archives.
+After this operation, 25.9 MB of additional disk space will be used.
+Get:1 https://deb.nodesource.com/node_6.x xenial/main amd64 nodejs amd64 6.11.0-1nodesource1~xenial1 [10.1 MB]
+Fetched 10.1 MB in 38s (259 kB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 330507 files and directories currently installed.)
+Removing npm (3.5.2-0ubuntu4) ...
+dpkg: nodejs-dev: dependency problems, but removing anyway as you requested:
+ node-gyp depends on nodejs-dev.
+
+Removing nodejs-dev (4.2.6~dfsg-1ubuntu4.1) ...
+Processing triggers for man-db (2.7.5-1) ...
+Processing triggers for doc-base (0.10.7) ...
+Processing 3 removed doc-base files...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 327450 files and directories currently installed.)
+Preparing to unpack .../nodejs_6.11.0-1nodesource1~xenial1_amd64.deb ...
+Unpacking nodejs (6.11.0-1nodesource1~xenial1) over (4.2.6~dfsg-1ubuntu4.1) ...
+Processing triggers for man-db (2.7.5-1) ...
+Processing triggers for doc-base (0.10.7) ...
+Processing 1 removed doc-base file...
+Setting up nodejs (6.11.0-1nodesource1~xenial1) ...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages were automatically installed and are no longer required:
+  gyp libjpeg62:i386 libjs-inherits libjs-node-uuid libmuparser2v5
+  libqt5concurrent5 libssl-dev libssl-doc libuv1 libuv1-dev libxtst6:i386
+  node-abbrev node-ansi node-ansi-color-table node-archy node-async
+  node-block-stream node-combined-stream node-cookie-jar node-delayed-stream
+  node-forever-agent node-form-data node-fstream node-fstream-ignore
+  node-github-url-from-git node-glob node-graceful-fs node-gyp node-inherits
+  node-ini node-json-stringify-safe node-lockfile node-lru-cache node-mime
+  node-minimatch node-mkdirp node-mute-stream node-node-uuid node-nopt
+  node-normalize-package-data node-npmlog node-once node-osenv node-qs
+  node-read node-read-package-json node-request node-retry node-rimraf
+  node-semver node-sha node-sigmund node-slide node-tar node-tunnel-agent
+  node-underscore node-which ubuntu-core-launcher
+Use 'sudo apt autoremove' to remove them.
+The following additional packages will be installed:
+  python-meld3
+Suggested packages:
+  supervisor-doc
+The following NEW packages will be installed:
+  python-meld3 supervisor
+0 upgraded, 2 newly installed, 0 to remove and 242 not upgraded.
+Need to get 284 kB of archives.
+After this operation, 1,550 kB of additional disk space will be used.
+Get:1 http://in.archive.ubuntu.com/ubuntu xenial/universe amd64 python-meld3 all 1.0.2-2 [30.9 kB]
+Get:2 http://in.archive.ubuntu.com/ubuntu xenial-updates/universe amd64 supervisor all 3.2.0-2ubuntu0.1 [253 kB]
+Fetched 284 kB in 2s (141 kB/s)
+Selecting previously unselected package python-meld3.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 331059 files and directories currently installed.)
+Preparing to unpack .../python-meld3_1.0.2-2_all.deb ...
+Unpacking python-meld3 (1.0.2-2) ...
+Selecting previously unselected package supervisor.
+Preparing to unpack .../supervisor_3.2.0-2ubuntu0.1_all.deb ...
+Unpacking supervisor (3.2.0-2ubuntu0.1) ...
+Processing triggers for systemd (229-4ubuntu16) ...
+Processing triggers for ureadahead (0.100.0-19) ...
+Processing triggers for man-db (2.7.5-1) ...
+Setting up python-meld3 (1.0.2-2) ...
+Setting up supervisor (3.2.0-2ubuntu0.1) ...
+Processing triggers for systemd (229-4ubuntu16) ...
+Processing triggers for ureadahead (0.100.0-19) ...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages were automatically installed and are no longer required:
+  gyp libjpeg62:i386 libjs-inherits libjs-node-uuid libmuparser2v5
+  libqt5concurrent5 libssl-dev libssl-doc libuv1 libuv1-dev libxtst6:i386
+  node-abbrev node-ansi node-ansi-color-table node-archy node-async
+  node-block-stream node-combined-stream node-cookie-jar node-delayed-stream
+  node-forever-agent node-form-data node-fstream node-fstream-ignore
+  node-github-url-from-git node-glob node-graceful-fs node-gyp node-inherits
+  node-ini node-json-stringify-safe node-lockfile node-lru-cache node-mime
+  node-minimatch node-mkdirp node-mute-stream node-node-uuid node-nopt
+  node-normalize-package-data node-npmlog node-once node-osenv node-qs
+  node-read node-read-package-json node-request node-retry node-rimraf
+  node-semver node-sha node-sigmund node-slide node-tar node-tunnel-agent
+  node-underscore node-which ubuntu-core-launcher
+Use 'sudo apt autoremove' to remove them.
+The following additional packages will be installed:
+  liblockfile-bin liblockfile1 procmail sendmail-base sendmail-bin sendmail-cf
+  sensible-mda
+Suggested packages:
+  sendmail-doc rmail logcheck sasl2-bin
+The following NEW packages will be installed:
+  liblockfile-bin liblockfile1 procmail sendmail sendmail-base sendmail-bin
+  sendmail-cf sensible-mda
+0 upgraded, 8 newly installed, 0 to remove and 242 not upgraded.
+Need to get 872 kB of archives.
+After this operation, 4,326 kB of additional disk space will be used.
+Get:1 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 liblockfile-bin amd64 1.09-6ubuntu1 [10.8 kB]
+Get:2 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 liblockfile1 amd64 1.09-6ubuntu1 [8,056 B]
+Get:3 http://in.archive.ubuntu.com/ubuntu xenial/universe amd64 sendmail-base all 8.15.2-3 [138 kB]
+Get:4 http://in.archive.ubuntu.com/ubuntu xenial/universe amd64 sendmail-cf all 8.15.2-3 [85.8 kB]
+Get:5 http://in.archive.ubuntu.com/ubuntu xenial/universe amd64 sendmail-bin amd64 8.15.2-3 [479 kB]
+Get:6 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 procmail amd64 3.22-25 [136 kB]
+Get:7 http://in.archive.ubuntu.com/ubuntu xenial/universe amd64 sensible-mda amd64 8.15.2-3 [8,362 B]
+Get:8 http://in.archive.ubuntu.com/ubuntu xenial/universe amd64 sendmail all 8.15.2-3 [6,316 B]
+Fetched 872 kB in 4s (209 kB/s)
+Selecting previously unselected package liblockfile-bin.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 331194 files and directories currently installed.)
+Preparing to unpack .../liblockfile-bin_1.09-6ubuntu1_amd64.deb ...
+Unpacking liblockfile-bin (1.09-6ubuntu1) ...
+Selecting previously unselected package liblockfile1:amd64.
+Preparing to unpack .../liblockfile1_1.09-6ubuntu1_amd64.deb ...
+Unpacking liblockfile1:amd64 (1.09-6ubuntu1) ...
+Selecting previously unselected package sendmail-base.
+Preparing to unpack .../sendmail-base_8.15.2-3_all.deb ...
+Unpacking sendmail-base (8.15.2-3) ...
+Selecting previously unselected package sendmail-cf.
+Preparing to unpack .../sendmail-cf_8.15.2-3_all.deb ...
+Unpacking sendmail-cf (8.15.2-3) ...
+Selecting previously unselected package sendmail-bin.
+Preparing to unpack .../sendmail-bin_8.15.2-3_amd64.deb ...
+Unpacking sendmail-bin (8.15.2-3) ...
+Selecting previously unselected package procmail.
+Preparing to unpack .../procmail_3.22-25_amd64.deb ...
+Unpacking procmail (3.22-25) ...
+Selecting previously unselected package sensible-mda.
+Preparing to unpack .../sensible-mda_8.15.2-3_amd64.deb ...
+Unpacking sensible-mda (8.15.2-3) ...
+Selecting previously unselected package sendmail.
+Preparing to unpack .../sendmail_8.15.2-3_all.deb ...
+Unpacking sendmail (8.15.2-3) ...
+Processing triggers for man-db (2.7.5-1) ...
+Processing triggers for systemd (229-4ubuntu16) ...
+Processing triggers for ureadahead (0.100.0-19) ...
+Setting up liblockfile-bin (1.09-6ubuntu1) ...
+Setting up liblockfile1:amd64 (1.09-6ubuntu1) ...
+Setting up sendmail-base (8.15.2-3) ...
+adduser: Warning: The home directory `/var/lib/sendmail' does not belong to the user you are currently creating.
+Setting up sendmail-cf (8.15.2-3) ...
+Setting up sendmail-bin (8.15.2-3) ...
+update-alternatives: using /usr/lib/sm.bin/sendmail to provide /usr/sbin/sendmail-mta (sendmail-mta) in auto mode
+update-alternatives: using /usr/lib/sm.bin/sendmail to provide /usr/sbin/sendmail-msp (sendmail-msp) in auto mode
+
+You are doing a new install, or have erased /etc/mail/sendmail.mc.
+If you've accidentaly erased /etc/mail/sendmail.mc, check /var/backups.
+
+I am creating a safe, default sendmail.mc for you and you can
+run sendmailconfig later if you need to change the defaults.
+
+Updating sendmail environment ...
+Validating configuration.
+Writing configuration to /etc/mail/sendmail.conf.
+Writing /etc/cron.d/sendmail.
+Could not open /etc/mail/databases(No such file or directory), creating it.
+Could not open /etc/mail/sendmail.mc(No such file or directory)
+Reading configuration from /etc/mail/sendmail.conf.
+Validating configuration.
+Writing configuration to /etc/mail/sendmail.conf.
+Writing /etc/cron.d/sendmail.
+Turning off Host Status collection
+Could not open /etc/mail/databases(No such file or directory), creating it.
+Reading configuration from /etc/mail/sendmail.conf.
+Validating configuration.
+Creating /etc/mail/databases...
+
+Checking filesystem, this may take some time - it will not hang!
+  ...   Done.
+ 
+Checking for installed MDAs...
+Adding link for newly extant program (mail.local)
+Adding link for newly extant program (procmail)
+sasl2-bin not installed, not configuring sendmail support.
+
+To enable sendmail SASL2 support at a later date, invoke "/usr/share/sendmail/update_auth"
+
+ 
+Creating/Updating SSL(for TLS) information
+Creating /etc/mail/tls/starttls.m4...
+Creating SSL certificates for sendmail.
+Generating DSA parameters, 2048 bit long prime
+This could take some time
+..+......+.........................................+.....+...........+.....+........+........+....+.......+..+...........+...+..+....+.............+...........+.+...........+........+..+...+..+++++++++++++++++++++++++++++++++++++++++++++++++++*
+..+.......+........................+.+.........................+.......................+...........+.....+..........................................+++++++++++++++++++++++++++++++++++++++++++++++++++*
+Generating RSA private key, 2048 bit long modulus
+......................+++
+....................................+++
+e is 65537 (0x10001)
+
+*** *** *** WARNING *** WARNING *** WARNING *** WARNING *** *** ***
+
+Everything you need to support STARTTLS (encrypted mail transmission
+and user authentication via certificates) is installed and configured
+but is *NOT* being used.
+
+To enable sendmail to use STARTTLS, you need to:
+1) Add this line to /etc/mail/sendmail.mc and optionally
+   to /etc/mail/submit.mc:
+  include(`/etc/mail/tls/starttls.m4')dnl
+2) Run sendmailconfig
+3) Restart sendmail
+
+ 
+Updating /etc/hosts.allow, adding "sendmail: all".
+
+Please edit /etc/hosts.allow and check the rules location to
+make sure your security measures have not been overridden -
+it is common to move the sendmail:all line to the *end* of
+the file, so your more selective rules take precedence.
+Checking {sendmail,submit}.mc and related databases...
+Reading configuration from /etc/mail/sendmail.conf.
+Validating configuration.
+Creating /etc/mail/databases...
+Reading configuration from /etc/mail/sendmail.conf.
+Validating configuration.
+Creating /etc/mail/databases...
+Reading configuration from /etc/mail/sendmail.conf.
+Validating configuration.
+Creating /etc/mail/Makefile...
+Reading configuration from /etc/mail/sendmail.conf.
+Validating configuration.
+Writing configuration to /etc/mail/sendmail.conf.
+Writing /etc/cron.d/sendmail.
+Disabling HOST statistics file(/var/lib/sendmail/host_status).
+Creating /etc/mail/sendmail.cf...
+Creating /etc/mail/submit.cf...
+Informational: confCR_FILE file empty: /etc/mail/relay-domains
+Warning: confCT_FILE source file not found: /etc/mail/trusted-users
+ it was created
+Informational: confCT_FILE file empty: /etc/mail/trusted-users
+Warning: confCW_FILE source file not found: /etc/mail/local-host-names
+ it was created
+Warning: access_db source file not found: /etc/mail/access
+ it was created
+Updating /etc/mail/access...
+Linking /etc/aliases to /etc/mail/aliases
+Informational: ALIAS_FILE file empty: /etc/mail/aliases
+Updating /etc/mail/aliases...
+WARNING: local host name (ab) is not qualified; see cf/README: WHO AM I?
+/etc/mail/aliases: 0 aliases, longest 0 bytes, 0 bytes total
+ 
+Warning: 3 database(s) sources
+	were not found, (but were created)
+	please investigate.
+Setting up procmail (3.22-25) ...
+Setting up sensible-mda (8.15.2-3) ...
+Setting up sendmail (8.15.2-3) ...
+Processing triggers for libc-bin (2.23-0ubuntu7) ...
+Processing triggers for systemd (229-4ubuntu16) ...
+Processing triggers for ureadahead (0.100.0-19) ...
+/usr/bin/grunt -> /usr/lib/node_modules/grunt-cli/bin/grunt
+/usr/lib
+`-- grunt-cli@1.2.0 
+  +-- findup-sync@0.3.0 
+  | `-- glob@5.0.15 
+  |   +-- inflight@1.0.6 
+  |   | `-- wrappy@1.0.2 
+  |   +-- inherits@2.0.3 
+  |   +-- minimatch@3.0.4 
+  |   | `-- brace-expansion@1.1.8 
+  |   |   +-- balanced-match@1.0.0 
+  |   |   `-- concat-map@0.0.1 
+  |   +-- once@1.4.0 
+  |   `-- path-is-absolute@1.0.1 
+  +-- grunt-known-options@1.1.0 
+  +-- nopt@3.0.6 
+  | `-- abbrev@1.1.0 
+  `-- resolve@1.1.7 
+
+npm WARN deprecated mongodb@1.3.19: Please upgrade to 2.2.19 or higher

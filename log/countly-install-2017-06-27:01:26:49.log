@@ -1,0 +1,2083 @@
+
+   ______                  __  __
+  / ____/___  __  ______  / /_/ /_  __
+ / /   / __ \/ / / / __ \/ __/ / / / /
+/ /___/ /_/ / /_/ / / / / /_/ / /_/ /
+\____/\____/\__,_/_/ /_/\__/_/\__, /
+              http://count.ly/____/
+
+Ign:1 http://dl.google.com/linux/chrome/deb stable InRelease
+Get:2 http://download.virtualbox.org/virtualbox/debian xenial InRelease [7,877 B]
+Get:3 http://security.ubuntu.com/ubuntu xenial-security InRelease [102 kB]
+Hit:4 http://in.archive.ubuntu.com/ubuntu xenial InRelease
+Hit:5 http://archive.canonical.com/ubuntu xenial InRelease
+Hit:6 http://ppa.launchpad.net/gerardpuig/ppa/ubuntu xenial InRelease
+Get:7 http://in.archive.ubuntu.com/ubuntu xenial-updates InRelease [102 kB]
+Ign:8 http://download.opensuse.org/repositories/home:/Horst3180/xUbuntu_16.04  InRelease
+Hit:9 http://dl.google.com/linux/chrome/deb stable Release
+Hit:10 http://dl.yarnpkg.com/debian stable InRelease
+Hit:11 http://ppa.launchpad.net/linuxgndu/sqlitebrowser/ubuntu xenial InRelease
+Hit:12 http://repository.spotify.com stable InRelease
+Ign:2 http://download.virtualbox.org/virtualbox/debian xenial InRelease
+Hit:13 http://ppa.launchpad.net/nathan-renniewaldock/flux/ubuntu xenial InRelease
+Get:14 http://download.opensuse.org/repositories/home:/Horst3180/xUbuntu_16.04  Release [1,007 B]
+Hit:16 http://ppa.launchpad.net/nilarimogard/webupd8/ubuntu xenial InRelease
+Get:17 http://download.opensuse.org/repositories/home:/Horst3180/xUbuntu_16.04  Release.gpg [481 B]
+Hit:19 http://ppa.launchpad.net/numix/ppa/ubuntu xenial InRelease
+Get:20 http://in.archive.ubuntu.com/ubuntu xenial-backports InRelease [102 kB]
+Hit:21 https://deb.nodesource.com/node_6.x xenial InRelease
+Hit:22 http://ppa.launchpad.net/ubuntu-wine/ppa/ubuntu xenial InRelease
+Hit:23 http://ppa.launchpad.net/webupd8team/atom/ubuntu xenial InRelease
+Hit:24 http://ppa.launchpad.net/webupd8team/haguichi/ubuntu xenial InRelease
+Ign:15 http://toolbelt.heroku.com/ubuntu ./ InRelease
+Get:25 https://fman.io/updates/ubuntu stable InRelease [1,800 B]
+Hit:25 https://fman.io/updates/ubuntu stable InRelease
+Hit:26 http://ppa.launchpad.net/webupd8team/sublime-text-3/ubuntu xenial InRelease
+Ign:17 http://download.opensuse.org/repositories/home:/Horst3180/xUbuntu_16.04  Release.gpg
+Get:27 http://in.archive.ubuntu.com/ubuntu xenial-updates/main Sources [256 kB]
+Hit:29 http://download.opensuse.org/repositories/home:/Horst3180/xUbuntu_16.04  Packages
+Hit:28 http://toolbelt.heroku.com/ubuntu ./ Release
+Get:31 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 Packages [565 kB]
+Hit:32 https://packagecloud.io/slacktechnologies/slack/debian jessie InRelease
+Get:33 http://in.archive.ubuntu.com/ubuntu xenial-updates/main i386 Packages [547 kB]
+Get:34 http://in.archive.ubuntu.com/ubuntu xenial-updates/universe amd64 Packages [488 kB]
+Get:35 http://in.archive.ubuntu.com/ubuntu xenial-updates/universe i386 Packages [470 kB]
+Fetched 2,642 kB in 12s (214 kB/s)
+Reading package lists...
+W: GPG error: http://download.virtualbox.org/virtualbox/debian xenial InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY A2F683C52980AECF
+W: The repository 'http://download.virtualbox.org/virtualbox/debian xenial InRelease' is not signed.
+W: GPG error: http://download.opensuse.org/repositories/home:/Horst3180/xUbuntu_16.04  Release: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 5A7D1D38BEB6D886
+W: The repository 'http://download.opensuse.org/repositories/home:/Horst3180/xUbuntu_16.04  Release' is not signed.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+build-essential is already the newest version (12.1ubuntu2).
+git is already the newest version (1:2.7.4-0ubuntu1.1).
+libkrb5-dev is already the newest version (1.13.2+dfsg-5ubuntu2).
+wget is already the newest version (1.17.1-1ubuntu1.2).
+python-software-properties is already the newest version (0.96.20.7).
+The following packages were automatically installed and are no longer required:
+  gyp libjpeg62:i386 libjs-inherits libjs-node-uuid libmuparser2v5
+  libqt5concurrent5 libssl-dev libssl-doc libuv1 libuv1-dev libxtst6:i386
+  node-abbrev node-ansi node-ansi-color-table node-archy node-async
+  node-block-stream node-combined-stream node-cookie-jar node-delayed-stream
+  node-forever-agent node-form-data node-fstream node-fstream-ignore
+  node-github-url-from-git node-glob node-graceful-fs node-gyp node-inherits
+  node-ini node-json-stringify-safe node-lockfile node-lru-cache node-mime
+  node-minimatch node-mkdirp node-mute-stream node-node-uuid node-nopt
+  node-normalize-package-data node-npmlog node-once node-osenv node-qs
+  node-read node-read-package-json node-request node-retry node-rimraf
+  node-semver node-sha node-sigmund node-slide node-tar node-tunnel-agent
+  node-underscore node-which ubuntu-core-launcher
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 242 not upgraded.
+
+## Installing the NodeSource Node.js v6.x repo...
+
+
+## Populating apt-get cache...
+
++ apt-get update
+Ign:1 http://dl.google.com/linux/chrome/deb stable InRelease
+Hit:2 http://dl.yarnpkg.com/debian stable InRelease
+Hit:3 http://archive.canonical.com/ubuntu xenial InRelease
+Get:4 http://download.virtualbox.org/virtualbox/debian xenial InRelease [7,877 B]
+Hit:5 http://in.archive.ubuntu.com/ubuntu xenial InRelease
+Hit:6 http://ppa.launchpad.net/gerardpuig/ppa/ubuntu xenial InRelease
+Ign:7 http://download.opensuse.org/repositories/home:/Horst3180/xUbuntu_16.04  InRelease
+Hit:8 https://deb.nodesource.com/node_6.x xenial InRelease
+Hit:9 http://in.archive.ubuntu.com/ubuntu xenial-updates InRelease
+Hit:10 http://ppa.launchpad.net/linuxgndu/sqlitebrowser/ubuntu xenial InRelease
+Hit:11 http://dl.google.com/linux/chrome/deb stable Release
+Ign:4 http://download.virtualbox.org/virtualbox/debian xenial InRelease
+Get:12 http://security.ubuntu.com/ubuntu xenial-security InRelease [102 kB]
+Hit:13 http://download.opensuse.org/repositories/home:/Horst3180/xUbuntu_16.04  Release
+Get:14 http://in.archive.ubuntu.com/ubuntu xenial-backports InRelease [102 kB]
+Hit:15 http://repository.spotify.com stable InRelease
+Hit:16 http://ppa.launchpad.net/nathan-renniewaldock/flux/ubuntu xenial InRelease
+Get:18 http://download.opensuse.org/repositories/home:/Horst3180/xUbuntu_16.04  Release.gpg [481 B]
+Hit:19 http://ppa.launchpad.net/nilarimogard/webupd8/ubuntu xenial InRelease
+Hit:21 http://ppa.launchpad.net/numix/ppa/ubuntu xenial InRelease
+Ign:18 http://download.opensuse.org/repositories/home:/Horst3180/xUbuntu_16.04  Release.gpg
+Hit:22 http://ppa.launchpad.net/ubuntu-wine/ppa/ubuntu xenial InRelease
+Ign:17 http://toolbelt.heroku.com/ubuntu ./ InRelease
+Get:23 https://fman.io/updates/ubuntu stable InRelease [1,800 B]
+Hit:23 https://fman.io/updates/ubuntu stable InRelease
+Hit:24 http://ppa.launchpad.net/webupd8team/atom/ubuntu xenial InRelease
+Hit:25 http://ppa.launchpad.net/webupd8team/haguichi/ubuntu xenial InRelease
+Hit:27 http://ppa.launchpad.net/webupd8team/sublime-text-3/ubuntu xenial InRelease
+Hit:26 http://toolbelt.heroku.com/ubuntu ./ Release
+Hit:29 https://packagecloud.io/slacktechnologies/slack/debian jessie InRelease
+Fetched 213 kB in 4s (50.6 kB/s)
+Reading package lists...
+W: GPG error: http://download.virtualbox.org/virtualbox/debian xenial InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY A2F683C52980AECF
+W: The repository 'http://download.virtualbox.org/virtualbox/debian xenial InRelease' is not signed.
+W: GPG error: http://download.opensuse.org/repositories/home:/Horst3180/xUbuntu_16.04  Release: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 5A7D1D38BEB6D886
+W: The repository 'http://download.opensuse.org/repositories/home:/Horst3180/xUbuntu_16.04  Release' is not signed.
+
+## Confirming "xenial" is supported...
+
++ curl -sLf -o /dev/null 'https://deb.nodesource.com/node_6.x/dists/xenial/Release'
+
+## Adding the NodeSource signing key to your keyring...
+
++ curl -s https://deb.nodesource.com/gpgkey/nodesource.gpg.key | apt-key add -
+OK
+
+## Creating apt sources list file for the NodeSource Node.js v6.x repo...
+
++ echo 'deb https://deb.nodesource.com/node_6.x xenial main' > /etc/apt/sources.list.d/nodesource.list
++ echo 'deb-src https://deb.nodesource.com/node_6.x xenial main' >> /etc/apt/sources.list.d/nodesource.list
+
+## Running `apt-get update` for you...
+
++ apt-get update
+Get:1 http://download.virtualbox.org/virtualbox/debian xenial InRelease [7,877 B]
+Ign:1 http://download.virtualbox.org/virtualbox/debian xenial InRelease
+Hit:2 http://dl.yarnpkg.com/debian stable InRelease
+Get:3 http://security.ubuntu.com/ubuntu xenial-security InRelease [102 kB]
+Hit:4 http://ppa.launchpad.net/gerardpuig/ppa/ubuntu xenial InRelease
+Ign:5 http://dl.google.com/linux/chrome/deb stable InRelease
+Hit:6 http://in.archive.ubuntu.com/ubuntu xenial InRelease
+Hit:7 http://archive.canonical.com/ubuntu xenial InRelease
+Hit:8 https://deb.nodesource.com/node_6.x xenial InRelease
+Ign:9 http://download.opensuse.org/repositories/home:/Horst3180/xUbuntu_16.04  InRelease
+Get:10 http://in.archive.ubuntu.com/ubuntu xenial-updates InRelease [102 kB]
+Hit:11 http://ppa.launchpad.net/linuxgndu/sqlitebrowser/ubuntu xenial InRelease
+Hit:12 http://repository.spotify.com stable InRelease
+Hit:13 http://dl.google.com/linux/chrome/deb stable Release
+Hit:14 http://ppa.launchpad.net/nathan-renniewaldock/flux/ubuntu xenial InRelease
+Get:15 http://download.opensuse.org/repositories/home:/Horst3180/xUbuntu_16.04  Release [1,007 B]
+Hit:17 http://ppa.launchpad.net/nilarimogard/webupd8/ubuntu xenial InRelease
+Get:19 http://download.opensuse.org/repositories/home:/Horst3180/xUbuntu_16.04  Release.gpg [481 B]
+Hit:20 http://ppa.launchpad.net/numix/ppa/ubuntu xenial InRelease
+Hit:21 http://ppa.launchpad.net/ubuntu-wine/ppa/ubuntu xenial InRelease
+Get:22 http://in.archive.ubuntu.com/ubuntu xenial-backports InRelease [102 kB]
+Ign:19 http://download.opensuse.org/repositories/home:/Horst3180/xUbuntu_16.04  Release.gpg
+Get:23 https://fman.io/updates/ubuntu stable InRelease [1,800 B]
+Hit:24 http://ppa.launchpad.net/webupd8team/atom/ubuntu xenial InRelease
+Hit:23 https://fman.io/updates/ubuntu stable InRelease
+Hit:25 http://download.opensuse.org/repositories/home:/Horst3180/xUbuntu_16.04  Packages
+Hit:26 http://ppa.launchpad.net/webupd8team/haguichi/ubuntu xenial InRelease
+Ign:16 http://toolbelt.heroku.com/ubuntu ./ InRelease
+Hit:27 http://ppa.launchpad.net/webupd8team/sublime-text-3/ubuntu xenial InRelease
+Hit:28 http://toolbelt.heroku.com/ubuntu ./ Release
+Hit:30 https://packagecloud.io/slacktechnologies/slack/debian jessie InRelease
+Fetched 316 kB in 4s (72.3 kB/s)
+Reading package lists...
+W: GPG error: http://download.virtualbox.org/virtualbox/debian xenial InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY A2F683C52980AECF
+W: The repository 'http://download.virtualbox.org/virtualbox/debian xenial InRelease' is not signed.
+W: GPG error: http://download.opensuse.org/repositories/home:/Horst3180/xUbuntu_16.04  Release: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 5A7D1D38BEB6D886
+W: The repository 'http://download.opensuse.org/repositories/home:/Horst3180/xUbuntu_16.04  Release' is not signed.
+
+## Run `apt-get install nodejs` (as root) to install Node.js v6.x and npm
+
+Get:1 http://download.virtualbox.org/virtualbox/debian xenial InRelease [7,877 B]
+Ign:1 http://download.virtualbox.org/virtualbox/debian xenial InRelease
+Hit:2 http://dl.yarnpkg.com/debian stable InRelease
+Ign:3 http://dl.google.com/linux/chrome/deb stable InRelease
+Get:4 http://security.ubuntu.com/ubuntu xenial-security InRelease [102 kB]
+Hit:5 http://archive.canonical.com/ubuntu xenial InRelease
+Hit:6 http://ppa.launchpad.net/gerardpuig/ppa/ubuntu xenial InRelease
+Hit:7 http://repository.spotify.com stable InRelease
+Hit:8 http://in.archive.ubuntu.com/ubuntu xenial InRelease
+Hit:9 https://deb.nodesource.com/node_6.x xenial InRelease
+Hit:10 http://ppa.launchpad.net/linuxgndu/sqlitebrowser/ubuntu xenial InRelease
+Get:11 http://in.archive.ubuntu.com/ubuntu xenial-updates InRelease [102 kB]
+Ign:12 http://download.opensuse.org/repositories/home:/Horst3180/xUbuntu_16.04  InRelease
+Hit:13 http://dl.google.com/linux/chrome/deb stable Release
+Hit:15 http://ppa.launchpad.net/nathan-renniewaldock/flux/ubuntu xenial InRelease
+Hit:16 http://download.opensuse.org/repositories/home:/Horst3180/xUbuntu_16.04  Release
+Hit:17 http://ppa.launchpad.net/nilarimogard/webupd8/ubuntu xenial InRelease
+Hit:19 http://ppa.launchpad.net/numix/ppa/ubuntu xenial InRelease
+Get:20 http://download.opensuse.org/repositories/home:/Horst3180/xUbuntu_16.04  Release.gpg [481 B]
+Hit:21 http://ppa.launchpad.net/ubuntu-wine/ppa/ubuntu xenial InRelease
+Get:22 http://in.archive.ubuntu.com/ubuntu xenial-backports InRelease [102 kB]
+Ign:20 http://download.opensuse.org/repositories/home:/Horst3180/xUbuntu_16.04  Release.gpg
+Get:23 https://fman.io/updates/ubuntu stable InRelease [1,800 B]
+Hit:24 http://ppa.launchpad.net/webupd8team/atom/ubuntu xenial InRelease
+Hit:23 https://fman.io/updates/ubuntu stable InRelease
+Ign:14 http://toolbelt.heroku.com/ubuntu ./ InRelease
+Hit:25 http://ppa.launchpad.net/webupd8team/haguichi/ubuntu xenial InRelease
+Hit:26 http://ppa.launchpad.net/webupd8team/sublime-text-3/ubuntu xenial InRelease
+Hit:27 http://toolbelt.heroku.com/ubuntu ./ Release
+Hit:29 https://packagecloud.io/slacktechnologies/slack/debian jessie InRelease
+Fetched 315 kB in 4s (67.8 kB/s)
+Reading package lists...
+W: GPG error: http://download.virtualbox.org/virtualbox/debian xenial InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY A2F683C52980AECF
+W: The repository 'http://download.virtualbox.org/virtualbox/debian xenial InRelease' is not signed.
+W: GPG error: http://download.opensuse.org/repositories/home:/Horst3180/xUbuntu_16.04  Release: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 5A7D1D38BEB6D886
+W: The repository 'http://download.opensuse.org/repositories/home:/Horst3180/xUbuntu_16.04  Release' is not signed.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+g++-4.8 is already the newest version (4.8.5-4ubuntu2).
+gcc-4.8 is already the newest version (4.8.5-4ubuntu2).
+The following packages were automatically installed and are no longer required:
+  gyp libjpeg62:i386 libjs-inherits libjs-node-uuid libmuparser2v5
+  libqt5concurrent5 libssl-dev libssl-doc libuv1 libuv1-dev libxtst6:i386
+  node-abbrev node-ansi node-ansi-color-table node-archy node-async
+  node-block-stream node-combined-stream node-cookie-jar node-delayed-stream
+  node-forever-agent node-form-data node-fstream node-fstream-ignore
+  node-github-url-from-git node-glob node-graceful-fs node-gyp node-inherits
+  node-ini node-json-stringify-safe node-lockfile node-lru-cache node-mime
+  node-minimatch node-mkdirp node-mute-stream node-node-uuid node-nopt
+  node-normalize-package-data node-npmlog node-once node-osenv node-qs
+  node-read node-read-package-json node-request node-retry node-rimraf
+  node-semver node-sha node-sigmund node-slide node-tar node-tunnel-agent
+  node-underscore node-which ubuntu-core-launcher
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 242 not upgraded.
+g++ (Ubuntu 4.8.5-4ubuntu2) 4.8.5
+Copyright (C) 2015 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+nginx is already the newest version (1.10.0-0ubuntu0.16.04.4).
+The following packages were automatically installed and are no longer required:
+  gyp libjpeg62:i386 libjs-inherits libjs-node-uuid libmuparser2v5
+  libqt5concurrent5 libssl-dev libssl-doc libuv1 libuv1-dev libxtst6:i386
+  node-abbrev node-ansi node-ansi-color-table node-archy node-async
+  node-block-stream node-combined-stream node-cookie-jar node-delayed-stream
+  node-forever-agent node-form-data node-fstream node-fstream-ignore
+  node-github-url-from-git node-glob node-graceful-fs node-gyp node-inherits
+  node-ini node-json-stringify-safe node-lockfile node-lru-cache node-mime
+  node-minimatch node-mkdirp node-mute-stream node-node-uuid node-nopt
+  node-normalize-package-data node-npmlog node-once node-osenv node-qs
+  node-read node-read-package-json node-request node-retry node-rimraf
+  node-semver node-sha node-sigmund node-slide node-tar node-tunnel-agent
+  node-underscore node-which ubuntu-core-launcher
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 242 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+nodejs is already the newest version (6.11.0-1nodesource1~xenial1).
+The following packages were automatically installed and are no longer required:
+  gyp libjpeg62:i386 libjs-inherits libjs-node-uuid libmuparser2v5
+  libqt5concurrent5 libssl-dev libssl-doc libuv1 libuv1-dev libxtst6:i386
+  node-abbrev node-ansi node-ansi-color-table node-archy node-async
+  node-block-stream node-combined-stream node-cookie-jar node-delayed-stream
+  node-forever-agent node-form-data node-fstream node-fstream-ignore
+  node-github-url-from-git node-glob node-graceful-fs node-gyp node-inherits
+  node-ini node-json-stringify-safe node-lockfile node-lru-cache node-mime
+  node-minimatch node-mkdirp node-mute-stream node-node-uuid node-nopt
+  node-normalize-package-data node-npmlog node-once node-osenv node-qs
+  node-read node-read-package-json node-request node-retry node-rimraf
+  node-semver node-sha node-sigmund node-slide node-tar node-tunnel-agent
+  node-underscore node-which ubuntu-core-launcher
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 242 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+supervisor is already the newest version (3.2.0-2ubuntu0.1).
+The following packages were automatically installed and are no longer required:
+  gyp libjpeg62:i386 libjs-inherits libjs-node-uuid libmuparser2v5
+  libqt5concurrent5 libssl-dev libssl-doc libuv1 libuv1-dev libxtst6:i386
+  node-abbrev node-ansi node-ansi-color-table node-archy node-async
+  node-block-stream node-combined-stream node-cookie-jar node-delayed-stream
+  node-forever-agent node-form-data node-fstream node-fstream-ignore
+  node-github-url-from-git node-glob node-graceful-fs node-gyp node-inherits
+  node-ini node-json-stringify-safe node-lockfile node-lru-cache node-mime
+  node-minimatch node-mkdirp node-mute-stream node-node-uuid node-nopt
+  node-normalize-package-data node-npmlog node-once node-osenv node-qs
+  node-read node-read-package-json node-request node-retry node-rimraf
+  node-semver node-sha node-sigmund node-slide node-tar node-tunnel-agent
+  node-underscore node-which ubuntu-core-launcher
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 242 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+sendmail is already the newest version (8.15.2-3).
+The following packages were automatically installed and are no longer required:
+  gyp libjpeg62:i386 libjs-inherits libjs-node-uuid libmuparser2v5
+  libqt5concurrent5 libssl-dev libssl-doc libuv1 libuv1-dev libxtst6:i386
+  node-abbrev node-ansi node-ansi-color-table node-archy node-async
+  node-block-stream node-combined-stream node-cookie-jar node-delayed-stream
+  node-forever-agent node-form-data node-fstream node-fstream-ignore
+  node-github-url-from-git node-glob node-graceful-fs node-gyp node-inherits
+  node-ini node-json-stringify-safe node-lockfile node-lru-cache node-mime
+  node-minimatch node-mkdirp node-mute-stream node-node-uuid node-nopt
+  node-normalize-package-data node-npmlog node-once node-osenv node-qs
+  node-read node-read-package-json node-request node-retry node-rimraf
+  node-semver node-sha node-sigmund node-slide node-tar node-tunnel-agent
+  node-underscore node-which ubuntu-core-launcher
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 242 not upgraded.
+/usr/bin/grunt -> /usr/lib/node_modules/grunt-cli/bin/grunt
+/usr/lib
+`-- grunt-cli@1.2.0 
+
+npm WARN deprecated mongodb@1.3.19: Please upgrade to 2.2.19 or higher
+npm WARN prefer global coffee-script@1.10.0 should be installed with -g
+npm WARN prefer global marked@0.3.6 should be installed with -g
+npm WARN prefer global jshint@2.9.5 should be installed with -g
+
+> bson@0.2.2 install /home/wirddin/Projects/Countly/countly-server/node_modules/bson
+> (node-gyp rebuild 2> builderror.log) || (exit 0)
+
+make: Entering directory '/home/wirddin/Projects/Countly/countly-server/node_modules/bson/build'
+  CXX(target) Release/obj.target/bson/ext/bson.o
+bson.target.mk:90: recipe for target 'Release/obj.target/bson/ext/bson.o' failed
+make: Leaving directory '/home/wirddin/Projects/Countly/countly-server/node_modules/bson/build'
+
+> kerberos@0.0.3 install /home/wirddin/Projects/Countly/countly-server/node_modules/connect-mongoskin/node_modules/kerberos
+> (node-gyp rebuild 2> builderror.log) || (exit 0)
+
+make: Entering directory '/home/wirddin/Projects/Countly/countly-server/node_modules/connect-mongoskin/node_modules/kerberos/build'
+  SOLINK_MODULE(target) Release/obj.target/kerberos.node
+  COPY Release/kerberos.node
+make: Leaving directory '/home/wirddin/Projects/Countly/countly-server/node_modules/connect-mongoskin/node_modules/kerberos/build'
+
+> kerberos@0.0.23 install /home/wirddin/Projects/Countly/countly-server/node_modules/kerberos
+> (node-gyp rebuild) || (exit 0)
+
+make: Entering directory '/home/wirddin/Projects/Countly/countly-server/node_modules/kerberos/build'
+  CXX(target) Release/obj.target/kerberos/lib/kerberos.o
+  CXX(target) Release/obj.target/kerberos/lib/worker.o
+  CC(target) Release/obj.target/kerberos/lib/kerberosgss.o
+../lib/kerberosgss.c:36:0: warning: ignoring #pragma clang diagnostic [-Wunknown-pragmas]
+ #pragma clang diagnostic push
+ ^
+../lib/kerberosgss.c:37:0: warning: ignoring #pragma clang diagnostic [-Wunknown-pragmas]
+ #pragma clang diagnostic ignored "-Wdeprecated-declarations"
+ ^
+../lib/kerberosgss.c: In function ‘authenticate_gss_client_wrap’:
+../lib/kerberosgss.c:446:19: warning: variable ‘server_conf_flags’ set but not used [-Wunused-but-set-variable]
+   char buf[4096], server_conf_flags;
+                   ^
+../lib/kerberosgss.c: At top level:
+../lib/kerberosgss.c:1236:0: warning: ignoring #pragma clang diagnostic [-Wunknown-pragmas]
+ #pragma clang diagnostic pop
+ ^
+  CC(target) Release/obj.target/kerberos/lib/base64.o
+  CXX(target) Release/obj.target/kerberos/lib/kerberos_context.o
+  SOLINK_MODULE(target) Release/obj.target/kerberos.node
+  COPY Release/kerberos.node
+make: Leaving directory '/home/wirddin/Projects/Countly/countly-server/node_modules/kerberos/build'
+
+> time@0.12.0 install /home/wirddin/Projects/Countly/countly-server/node_modules/time
+> node-gyp rebuild
+
+make: Entering directory '/home/wirddin/Projects/Countly/countly-server/node_modules/time/build'
+  CXX(target) Release/obj.target/time/src/time.o
+  SOLINK_MODULE(target) Release/obj.target/time.node
+  COPY Release/time.node
+make: Leaving directory '/home/wirddin/Projects/Countly/countly-server/node_modules/time/build'
+countly-server@17.5.0 /home/wirddin/Projects/Countly/countly-server
++-- async@2.4.0 
+| `-- lodash@4.17.4 
++-- basic-auth@1.1.0 
++-- bluebird@3.5.0 
++-- body-parser@1.17.1 
+| +-- bytes@2.4.0 
+| +-- content-type@1.0.2 
+| +-- debug@2.6.1 
+| | `-- ms@0.7.2 
+| +-- depd@1.1.0 
+| +-- http-errors@1.6.1 
+| | `-- inherits@2.0.3 
+| +-- iconv-lite@0.4.15 
+| +-- on-finished@2.3.0 
+| | `-- ee-first@1.1.1 
+| +-- qs@6.4.0 
+| +-- raw-body@2.2.0 
+| | `-- unpipe@1.0.0 
+| `-- type-is@1.6.15 
+|   `-- media-typer@0.3.0 
++-- colors@1.1.2 
++-- connect-flash@0.1.1 
++-- connect-mongoskin@0.1.2 
+| +-- connect@2.3.9 
+| | +-- bytes@0.1.0 
+| | +-- cookie@0.0.4 
+| | +-- crc@0.2.0 
+| | +-- formidable@1.0.11 
+| | +-- fresh@0.1.0 
+| | +-- qs@0.4.2 
+| | `-- send@0.0.3 
+| |   +-- mime@1.2.6 
+| |   `-- range-parser@0.0.4 
+| `-- mongoskin@0.6.1 
+|   `-- mongodb@1.3.19 
+|     +-- bson@0.2.2 
+|     `-- kerberos@0.0.3 
++-- cookie-parser@1.4.3 
+| +-- cookie@0.3.1 
+| `-- cookie-signature@1.0.6 
++-- csurf@1.9.0 
+| +-- cookie@0.3.1 
+| +-- csrf@3.0.6 
+| | +-- rndm@1.2.0 
+| | `-- tsscmp@1.0.5 
+| `-- http-errors@1.5.1 
+|   `-- setprototypeof@1.0.2 
++-- docdash@0.4.0  (git://github.com/ar2rsawseen/docdash.git#0449de564acd55a6242452a3df8ee119897e3ddb)
++-- ejs@2.5.6 
++-- errorhandler@1.5.0 
+| +-- accepts@1.3.3 
+| | `-- negotiator@0.6.1 
+| `-- escape-html@1.0.3 
++-- express@4.15.2 
+| +-- array-flatten@1.1.1 
+| +-- content-disposition@0.5.2 
+| +-- cookie@0.3.1 
+| +-- encodeurl@1.0.1 
+| +-- etag@1.8.0 
+| +-- finalhandler@1.0.3 
+| | `-- debug@2.6.7 
+| |   `-- ms@2.0.0 
+| +-- fresh@0.5.0 
+| +-- merge-descriptors@1.0.1 
+| +-- methods@1.1.2 
+| +-- parseurl@1.3.1 
+| +-- path-to-regexp@0.1.7 
+| +-- proxy-addr@1.1.4 
+| | +-- forwarded@0.1.0 
+| | `-- ipaddr.js@1.3.0 
+| +-- range-parser@1.2.0 
+| +-- send@0.15.1 
+| | +-- destroy@1.0.4 
+| | `-- mime@1.3.4 
+| +-- serve-static@1.12.1 
+| | `-- send@0.15.1 
+| |   +-- fresh@0.5.0 
+| |   +-- mime@1.3.4 
+| |   `-- range-parser@1.2.0 
+| +-- setprototypeof@1.0.3 
+| +-- statuses@1.3.1 
+| +-- utils-merge@1.0.0 
+| `-- vary@1.1.1 
++-- express-expose@0.3.4 
++-- express-session@1.15.2 
+| +-- cookie@0.3.1 
+| +-- crc@3.4.4 
+| +-- debug@2.6.3 
+| +-- on-headers@1.0.1 
+| `-- uid-safe@2.1.4 
+|   `-- random-bytes@1.0.0 
++-- external-ip@0.2.4 
+| +-- commander@2.10.0 
+| | `-- graceful-readlink@1.0.1 
+| +-- evented-async-loop@0.1.1 
+| `-- revalidator@0.3.1 
++-- formidable@1.1.1 
++-- geoip-lite@1.2.1 
+| +-- glob@7.1.2 
+| | +-- fs.realpath@1.0.0 
+| | +-- inflight@1.0.6 
+| | | `-- wrappy@1.0.2 
+| | `-- once@1.4.0 
+| +-- lazy@1.0.11 
+| +-- rimraf@2.6.1 
+| `-- unzip@0.1.11 
+|   +-- binary@0.3.0 
+|   | +-- buffers@0.1.1 
+|   | `-- chainsaw@0.1.0 
+|   |   `-- traverse@0.3.9 
+|   +-- fstream@0.1.31 
+|   | `-- graceful-fs@3.0.11 
+|   |   `-- natives@1.1.0 
+|   +-- match-stream@0.0.2 
+|   +-- pullstream@0.4.1 
+|   | +-- over@0.0.5 
+|   | `-- slice-stream@1.0.0 
+|   +-- readable-stream@1.0.34 
+|   | +-- isarray@0.0.1 
+|   | `-- string_decoder@0.10.31 
+|   `-- setimmediate@1.0.5 
++-- grunt@1.0.1 
+| +-- coffee-script@1.10.0 
+| +-- dateformat@1.0.12 
+| | +-- get-stdin@4.0.1 
+| | `-- meow@3.7.0 
+| |   +-- camelcase-keys@2.1.0 
+| |   | `-- camelcase@2.1.1 
+| |   +-- decamelize@1.2.0 
+| |   +-- loud-rejection@1.6.0 
+| |   | +-- currently-unhandled@0.4.1 
+| |   | | `-- array-find-index@1.0.2 
+| |   | `-- signal-exit@3.0.2 
+| |   +-- map-obj@1.0.1 
+| |   +-- minimist@1.2.0 
+| |   +-- normalize-package-data@2.3.8 
+| |   | +-- hosted-git-info@2.4.2 
+| |   | +-- is-builtin-module@1.0.0 
+| |   | | `-- builtin-modules@1.1.1 
+| |   | `-- validate-npm-package-license@3.0.1 
+| |   |   +-- spdx-correct@1.0.2 
+| |   |   | `-- spdx-license-ids@1.2.2 
+| |   |   `-- spdx-expression-parse@1.0.4 
+| |   +-- object-assign@4.1.1 
+| |   +-- read-pkg-up@1.0.1 
+| |   | +-- find-up@1.1.2 
+| |   | | +-- path-exists@2.1.0 
+| |   | | `-- pinkie-promise@2.0.1 
+| |   | |   `-- pinkie@2.0.4 
+| |   | `-- read-pkg@1.1.0 
+| |   |   +-- load-json-file@1.1.0 
+| |   |   | +-- graceful-fs@4.1.11 
+| |   |   | +-- parse-json@2.2.0 
+| |   |   | | `-- error-ex@1.3.1 
+| |   |   | |   `-- is-arrayish@0.2.1 
+| |   |   | +-- pify@2.3.0 
+| |   |   | `-- strip-bom@2.0.0 
+| |   |   |   `-- is-utf8@0.2.1 
+| |   |   `-- path-type@1.1.0 
+| |   |     `-- graceful-fs@4.1.11 
+| |   +-- redent@1.0.0 
+| |   | +-- indent-string@2.1.0 
+| |   | | `-- repeating@2.0.1 
+| |   | |   `-- is-finite@1.0.2 
+| |   | `-- strip-indent@1.0.1 
+| |   `-- trim-newlines@1.0.0 
+| +-- eventemitter2@0.4.14 
+| +-- exit@0.1.2 
+| +-- findup-sync@0.3.0 
+| | `-- glob@5.0.15 
+| +-- glob@7.0.6 
+| +-- grunt-known-options@1.1.0 
+| +-- grunt-legacy-log@1.0.0 
+| | +-- grunt-legacy-log-utils@1.0.0 
+| | | `-- lodash@4.3.0 
+| | +-- lodash@3.10.1 
+| | `-- underscore.string@3.2.3 
+| +-- grunt-legacy-util@1.0.0 
+| | +-- async@1.5.2 
+| | +-- getobject@0.1.0 
+| | +-- lodash@4.3.0 
+| | `-- which@1.2.14 
+| |   `-- isexe@2.0.0 
+| +-- js-yaml@3.5.5 
+| | `-- esprima@2.7.3 
+| +-- minimatch@3.0.4 
+| | `-- brace-expansion@1.1.8 
+| |   +-- balanced-match@1.0.0 
+| |   `-- concat-map@0.0.1 
+| +-- nopt@3.0.6 
+| | `-- abbrev@1.1.0 
+| +-- path-is-absolute@1.0.1 
+| `-- rimraf@2.2.8 
++-- grunt-cli@1.2.0 
+| `-- resolve@1.1.7 
++-- grunt-contrib-concat@1.0.1 
+| +-- chalk@1.1.3 
+| | +-- ansi-styles@2.2.1 
+| | +-- has-ansi@2.0.0 
+| | | `-- ansi-regex@2.1.1 
+| | +-- strip-ansi@3.0.1 
+| | `-- supports-color@2.0.0 
+| `-- source-map@0.5.6 
++-- grunt-contrib-copy@1.0.0 
+| `-- file-sync-cmp@0.1.1 
++-- grunt-contrib-cssmin@2.1.0 
+| +-- clean-css@4.0.13 
+| `-- maxmin@2.1.0 
+|   +-- figures@1.7.0 
+|   +-- gzip-size@3.0.0 
+|   | `-- duplexer@0.1.1 
+|   `-- pretty-bytes@3.0.1 
+|     `-- number-is-nan@1.0.1 
++-- grunt-contrib-jshint@1.1.0 
+| +-- hooker@0.2.3 
+| `-- jshint@2.9.5 
+|   +-- cli@1.0.1 
+|   +-- console-browserify@1.1.0 
+|   | `-- date-now@0.1.4 
+|   +-- htmlparser2@3.8.3 
+|   | +-- domelementtype@1.3.0 
+|   | +-- domhandler@2.3.0 
+|   | +-- domutils@1.5.1 
+|   | | `-- dom-serializer@0.1.0 
+|   | |   +-- domelementtype@1.1.3 
+|   | |   `-- entities@1.1.1 
+|   | +-- entities@1.0.0 
+|   | `-- readable-stream@1.1.14 
+|   +-- lodash@3.7.0 
+|   +-- shelljs@0.3.0 
+|   `-- strip-json-comments@1.0.4 
++-- grunt-contrib-uglify@2.3.0 
+| +-- maxmin@1.1.0 
+| | +-- gzip-size@1.0.0 
+| | | +-- browserify-zlib@0.1.4 
+| | | | `-- pako@0.2.9 
+| | | `-- concat-stream@1.6.0 
+| | |   +-- readable-stream@2.3.2 
+| | |   | +-- isarray@1.0.0 
+| | |   | `-- string_decoder@1.0.3 
+| | |   `-- typedarray@0.0.6 
+| | `-- pretty-bytes@1.0.4 
+| +-- object.assign@4.0.4 
+| | +-- define-properties@1.1.2 
+| | | `-- foreach@2.0.5 
+| | +-- function-bind@1.1.0 
+| | `-- object-keys@1.0.11 
+| +-- uglify-js@2.8.29 
+| | +-- uglify-to-browserify@1.0.2 
+| | `-- yargs@3.10.0 
+| |   +-- camelcase@1.2.1 
+| |   +-- cliui@2.1.0 
+| |   | +-- center-align@0.1.3 
+| |   | | +-- align-text@0.1.4 
+| |   | | | +-- kind-of@3.2.2 
+| |   | | | +-- longest@1.0.1 
+| |   | | | `-- repeat-string@1.6.1 
+| |   | | `-- lazy-cache@1.0.4 
+| |   | +-- right-align@0.1.3 
+| |   | `-- wordwrap@0.0.2 
+| |   `-- window-size@0.1.0 
+| `-- uri-path@1.0.0 
++-- grunt-mocha-test@0.13.2 
+| `-- mkdirp@0.5.1 
+|   `-- minimist@0.0.8 
++-- jimp@0.2.27 
+| +-- bignumber.js@2.4.0 
+| +-- bmp-js@0.0.1 
+| +-- es6-promise@3.3.1 
+| +-- exif-parser@0.1.9 
+| +-- file-type@3.9.0 
+| +-- jpeg-js@0.2.0 
+| +-- load-bmfont@1.3.0 
+| | +-- buffer-equal@0.0.1 
+| | +-- mime@1.3.6 
+| | +-- parse-bmfont-ascii@1.0.6 
+| | +-- parse-bmfont-binary@1.0.6 
+| | +-- parse-bmfont-xml@1.1.3 
+| | | +-- xml-parse-from-string@1.0.1 
+| | | `-- xml2js@0.4.17 
+| | |   +-- sax@1.2.4 
+| | |   `-- xmlbuilder@4.2.1 
+| | +-- xhr@2.4.0 
+| | | +-- global@4.3.2 
+| | | | +-- min-document@2.19.0 
+| | | | | `-- dom-walk@0.1.1 
+| | | | `-- process@0.5.2 
+| | | +-- is-function@1.0.1 
+| | | `-- parse-headers@2.0.1 
+| | |   +-- for-each@0.3.2 
+| | |   `-- trim@0.0.1 
+| | `-- xtend@4.0.1 
+| +-- mime@1.3.6 
+| +-- pixelmatch@4.0.2 
+| +-- pngjs@3.2.0 
+| +-- read-chunk@1.0.1 
+| +-- stream-to-buffer@0.1.0 
+| | `-- stream-to@0.2.2 
+| +-- tinycolor2@1.4.1 
+| `-- url-regex@3.2.0 
+|   `-- ip-regex@1.0.3 
++-- jsdoc@3.4.3 
+| +-- bluebird@3.4.7 
+| +-- catharsis@0.8.8 
+| | `-- underscore-contrib@0.3.0 
+| |   `-- underscore@1.6.0 
+| +-- escape-string-regexp@1.0.5 
+| +-- espree@3.1.7 
+| | +-- acorn@3.3.0 
+| | `-- acorn-jsx@3.0.1 
+| +-- js2xmlparser@1.0.0 
+| +-- klaw@1.3.1 
+| | `-- graceful-fs@4.1.11 
+| +-- marked@0.3.6 
+| +-- requizzle@0.2.1 
+| | `-- underscore@1.6.0 
+| +-- strip-json-comments@2.0.1 
+| `-- taffydb@2.6.2 
++-- json2csv@3.7.3 
+| +-- cli-table@0.3.1 
+| | `-- colors@1.0.3 
+| +-- flat@2.0.1 
+| | `-- is-buffer@1.1.5 
+| +-- lodash.clonedeep@4.5.0 
+| +-- lodash.flatten@4.4.0 
+| +-- lodash.get@4.4.2 
+| +-- lodash.set@4.3.2 
+| `-- lodash.uniq@4.5.0 
++-- json2xls@0.1.2 
+| `-- excel-export@0.3.11 
+|   `-- node-zip@1.1.1 
+|     `-- jszip@2.5.0 
+|       `-- pako@0.2.8 
++-- kerberos@0.0.23 
+| `-- nan@2.5.1 
++-- later@1.2.0 
++-- mcc-mnc-list@1.0.70 
++-- method-override@2.3.8 
+| `-- debug@2.6.3 
++-- mocha@3.4.2 
+| +-- browser-stdout@1.3.0 
+| +-- commander@2.9.0 
+| +-- debug@2.6.0 
+| +-- diff@3.2.0 
+| +-- glob@7.1.1 
+| +-- growl@1.9.2 
+| +-- json3@3.3.2 
+| +-- lodash.create@3.1.1 
+| | +-- lodash._baseassign@3.2.0 
+| | | +-- lodash._basecopy@3.0.1 
+| | | `-- lodash.keys@3.1.2 
+| | |   +-- lodash._getnative@3.9.1 
+| | |   +-- lodash.isarguments@3.1.0 
+| | |   `-- lodash.isarray@3.0.4 
+| | +-- lodash._basecreate@3.0.3 
+| | `-- lodash._isiterateecall@3.0.9 
+| `-- supports-color@3.1.2 
+|   `-- has-flag@1.0.0 
++-- moment@2.18.1 
++-- moment-timezone@0.5.13 
++-- mongodb@2.2.26 
+| +-- es6-promise@3.2.1 
+| +-- mongodb-core@2.1.10 
+| | +-- bson@1.0.4 
+| | `-- require_optional@1.0.1 
+| |   +-- resolve-from@2.0.0 
+| |   `-- semver@5.3.0 
+| `-- readable-stream@2.2.7 
+|   +-- buffer-shims@1.0.0 
+|   +-- core-util-is@1.0.2 
+|   +-- isarray@1.0.0 
+|   +-- process-nextick-args@1.0.7 
+|   +-- string_decoder@1.0.3 
+|   `-- util-deprecate@1.0.2 
++-- mongoskin@2.1.0 
++-- nodemailer@4.0.1 
++-- nodemailer-sendmail-transport@1.0.2 
++-- nodemailer-smtp-pool@2.8.3 
+| +-- nodemailer-shared@1.1.0 
+| | `-- nodemailer-fetch@1.6.0 
+| +-- nodemailer-wellknown@0.1.10 
+| `-- smtp-connection@2.12.0 
+|   `-- httpntlm@1.6.1 
+|     +-- httpreq@0.4.23 
+|     `-- underscore@1.7.0 
++-- nodemailer-smtp-transport@2.7.4 
++-- properties-parser@0.3.1 
+| `-- string.prototype.codepointat@0.2.0 
++-- request@2.81.0 
+| +-- aws-sign2@0.6.0 
+| +-- aws4@1.6.0 
+| +-- caseless@0.12.0 
+| +-- combined-stream@1.0.5 
+| | `-- delayed-stream@1.0.0 
+| +-- extend@3.0.1 
+| +-- forever-agent@0.6.1 
+| +-- form-data@2.1.4 
+| | `-- asynckit@0.4.0 
+| +-- har-validator@4.2.1 
+| | +-- ajv@4.11.8 
+| | | +-- co@4.6.0 
+| | | `-- json-stable-stringify@1.0.1 
+| | |   `-- jsonify@0.0.0 
+| | `-- har-schema@1.0.5 
+| +-- hawk@3.1.3 
+| | +-- boom@2.10.1 
+| | +-- cryptiles@2.0.5 
+| | +-- hoek@2.16.3 
+| | `-- sntp@1.0.9 
+| +-- http-signature@1.1.1 
+| | +-- assert-plus@0.2.0 
+| | +-- jsprim@1.4.0 
+| | | +-- assert-plus@1.0.0 
+| | | +-- extsprintf@1.0.2 
+| | | +-- json-schema@0.2.3 
+| | | `-- verror@1.3.6 
+| | `-- sshpk@1.13.1 
+| |   +-- asn1@0.2.3 
+| |   +-- assert-plus@1.0.0 
+| |   +-- bcrypt-pbkdf@1.0.1 
+| |   +-- dashdash@1.14.1 
+| |   | `-- assert-plus@1.0.0 
+| |   +-- ecc-jsbn@0.1.1 
+| |   +-- getpass@0.1.7 
+| |   | `-- assert-plus@1.0.0 
+| |   +-- jsbn@0.1.1 
+| |   `-- tweetnacl@0.14.5 
+| +-- is-typedarray@1.0.0 
+| +-- isstream@0.1.2 
+| +-- json-stringify-safe@5.0.1 
+| +-- mime-types@2.1.15 
+| | `-- mime-db@1.27.0 
+| +-- oauth-sign@0.8.2 
+| +-- performance-now@0.2.0 
+| +-- safe-buffer@5.1.1 
+| +-- stringstream@0.0.5 
+| +-- tough-cookie@2.3.2 
+| | `-- punycode@1.4.1 
+| +-- tunnel-agent@0.6.0 
+| `-- uuid@3.1.0 
++-- should@11.2.1 
+| +-- should-equal@1.0.1 
+| +-- should-format@3.0.3 
+| +-- should-type@1.4.0 
+| +-- should-type-adaptors@1.0.1 
+| `-- should-util@1.0.0 
++-- string@3.3.3 
++-- supertest@3.0.0 
+| `-- superagent@3.5.2 
+|   +-- component-emitter@1.2.1 
+|   +-- cookiejar@2.1.1 
+|   +-- mime@1.3.6 
+|   `-- readable-stream@2.3.2 
+|     +-- isarray@1.0.0 
+|     `-- string_decoder@1.0.3 
++-- time@0.12.0 
+| `-- bindings@1.2.1 
++-- traverse@0.6.6 
++-- underscore@1.8.3 
+`-- yamljs@0.2.10 
+  `-- argparse@1.0.9 
+    `-- sprintf-js@1.0.3 
+
+npm WARN countly-server@17.5.0 No license field.
+Executing: /tmp/tmp.KfInmCGLIe/gpg.1.sh --keyserver
+hkp://keyserver.ubuntu.com:80
+--recv
+EA312927
+gpg: requesting key EA312927 from hkp server keyserver.ubuntu.com
+gpg: key EA312927: public key "MongoDB 3.2 Release Signing Key <packaging@mongodb.com>" imported
+gpg: Total number processed: 1
+gpg:               imported: 1  (RSA: 1)
+deb http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.2 multiverse
+Ign:1 http://dl.google.com/linux/chrome/deb stable InRelease
+Hit:2 http://dl.yarnpkg.com/debian stable InRelease
+Ign:3 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.2 InRelease
+Get:4 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.2 Release [3,462 B]
+Get:5 http://download.virtualbox.org/virtualbox/debian xenial InRelease [7,877 B]
+Hit:6 http://ppa.launchpad.net/gerardpuig/ppa/ubuntu xenial InRelease
+Hit:7 http://archive.canonical.com/ubuntu xenial InRelease
+Hit:8 http://in.archive.ubuntu.com/ubuntu xenial InRelease
+Hit:9 http://repository.spotify.com stable InRelease
+Ign:5 http://download.virtualbox.org/virtualbox/debian xenial InRelease
+Ign:10 http://download.opensuse.org/repositories/home:/Horst3180/xUbuntu_16.04  InRelease
+Hit:11 http://ppa.launchpad.net/linuxgndu/sqlitebrowser/ubuntu xenial InRelease
+Get:12 http://in.archive.ubuntu.com/ubuntu xenial-updates InRelease [102 kB]
+Get:13 http://security.ubuntu.com/ubuntu xenial-security InRelease [102 kB]
+Hit:14 https://deb.nodesource.com/node_6.x xenial InRelease
+Get:15 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.2 Release.gpg [801 B]
+Hit:16 http://dl.google.com/linux/chrome/deb stable Release
+Get:17 http://download.opensuse.org/repositories/home:/Horst3180/xUbuntu_16.04  Release [1,007 B]
+Hit:18 http://ppa.launchpad.net/nathan-renniewaldock/flux/ubuntu xenial InRelease
+Hit:20 http://ppa.launchpad.net/nilarimogard/webupd8/ubuntu xenial InRelease
+Get:21 http://download.opensuse.org/repositories/home:/Horst3180/xUbuntu_16.04  Release.gpg [481 B]
+Hit:23 http://ppa.launchpad.net/numix/ppa/ubuntu xenial InRelease
+Get:24 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.2/multiverse amd64 Packages [6,498 B]
+Hit:25 http://ppa.launchpad.net/ubuntu-wine/ppa/ubuntu xenial InRelease
+Get:26 http://in.archive.ubuntu.com/ubuntu xenial-backports InRelease [102 kB]
+Ign:21 http://download.opensuse.org/repositories/home:/Horst3180/xUbuntu_16.04  Release.gpg
+Hit:27 http://ppa.launchpad.net/webupd8team/atom/ubuntu xenial InRelease
+Get:28 https://fman.io/updates/ubuntu stable InRelease [1,800 B]
+Hit:28 https://fman.io/updates/ubuntu stable InRelease
+Hit:29 http://download.opensuse.org/repositories/home:/Horst3180/xUbuntu_16.04  Packages
+Hit:30 http://ppa.launchpad.net/webupd8team/haguichi/ubuntu xenial InRelease
+Hit:31 http://ppa.launchpad.net/webupd8team/sublime-text-3/ubuntu xenial InRelease
+Ign:19 http://toolbelt.heroku.com/ubuntu ./ InRelease
+Hit:32 http://toolbelt.heroku.com/ubuntu ./ Release
+Hit:34 https://packagecloud.io/slacktechnologies/slack/debian jessie InRelease
+Fetched 327 kB in 4s (73.5 kB/s)
+Reading package lists...
+W: GPG error: http://download.virtualbox.org/virtualbox/debian xenial InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY A2F683C52980AECF
+W: The repository 'http://download.virtualbox.org/virtualbox/debian xenial InRelease' is not signed.
+W: GPG error: http://download.opensuse.org/repositories/home:/Horst3180/xUbuntu_16.04  Release: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 5A7D1D38BEB6D886
+W: The repository 'http://download.opensuse.org/repositories/home:/Horst3180/xUbuntu_16.04  Release' is not signed.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages were automatically installed and are no longer required:
+  gyp libboost-program-options1.58.0 libboost-thread1.58.0
+  libgoogle-perftools4 libjpeg62:i386 libjs-inherits libjs-node-uuid
+  libmuparser2v5 libqt5concurrent5 libssl-dev libssl-doc libtcmalloc-minimal4
+  libuv1 libuv1-dev libv8-3.14.5 libxtst6:i386 libyaml-cpp0.5v5 node-abbrev
+  node-ansi node-ansi-color-table node-archy node-async node-block-stream
+  node-combined-stream node-cookie-jar node-delayed-stream node-forever-agent
+  node-form-data node-fstream node-fstream-ignore node-github-url-from-git
+  node-glob node-graceful-fs node-gyp node-inherits node-ini
+  node-json-stringify-safe node-lockfile node-lru-cache node-mime
+  node-minimatch node-mkdirp node-mute-stream node-node-uuid node-nopt
+  node-normalize-package-data node-npmlog node-once node-osenv node-qs
+  node-read node-read-package-json node-request node-retry node-rimraf
+  node-semver node-sha node-sigmund node-slide node-tar node-tunnel-agent
+  node-underscore node-which ubuntu-core-launcher
+Use 'sudo apt autoremove' to remove them.
+The following additional packages will be installed:
+  mongodb-org-mongos mongodb-org-server mongodb-org-shell mongodb-org-tools
+The following packages will be REMOVED:
+  mongodb mongodb-clients mongodb-server
+The following NEW packages will be installed:
+  mongodb-org mongodb-org-mongos mongodb-org-server mongodb-org-shell
+  mongodb-org-tools
+0 upgraded, 5 newly installed, 3 to remove and 242 not upgraded.
+Need to get 51.6 MB of archives.
+After this operation, 25.5 MB of additional disk space will be used.
+Get:1 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.2/multiverse amd64 mongodb-org-shell amd64 3.2.14 [5,259 kB]
+Get:2 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.2/multiverse amd64 mongodb-org-server amd64 3.2.14 [9,982 kB]
+Get:3 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.2/multiverse amd64 mongodb-org-mongos amd64 3.2.14 [4,661 kB]
+Get:4 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.2/multiverse amd64 mongodb-org-tools amd64 3.2.14 [31.7 MB]
+Get:5 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.2/multiverse amd64 mongodb-org amd64 3.2.14 [3,564 B]
+Fetched 51.6 MB in 3min 39s (235 kB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 331671 files and directories currently installed.)
+Removing mongodb (1:2.6.10-0ubuntu1) ...
+Removing mongodb-server (1:2.6.10-0ubuntu1) ...
+Removing mongodb-clients (1:2.6.10-0ubuntu1) ...
+Processing triggers for man-db (2.7.5-1) ...
+Selecting previously unselected package mongodb-org-shell.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 331627 files and directories currently installed.)
+Preparing to unpack .../mongodb-org-shell_3.2.14_amd64.deb ...
+Unpacking mongodb-org-shell (3.2.14) ...
+Selecting previously unselected package mongodb-org-server.
+Preparing to unpack .../mongodb-org-server_3.2.14_amd64.deb ...
+Unpacking mongodb-org-server (3.2.14) ...
+Selecting previously unselected package mongodb-org-mongos.
+Preparing to unpack .../mongodb-org-mongos_3.2.14_amd64.deb ...
+Unpacking mongodb-org-mongos (3.2.14) ...
+Selecting previously unselected package mongodb-org-tools.
+Preparing to unpack .../mongodb-org-tools_3.2.14_amd64.deb ...
+Unpacking mongodb-org-tools (3.2.14) ...
+Selecting previously unselected package mongodb-org.
+Preparing to unpack .../mongodb-org_3.2.14_amd64.deb ...
+Unpacking mongodb-org (3.2.14) ...
+Processing triggers for man-db (2.7.5-1) ...
+Setting up mongodb-org-shell (3.2.14) ...
+Setting up mongodb-org-server (3.2.14) ...
+Setting up mongodb-org-mongos (3.2.14) ...
+Setting up mongodb-org-tools (3.2.14) ...
+Setting up mongodb-org (3.2.14) ...
+/sbin/init: unrecognized option '--version'
+Restarting nginx (via systemctl): nginx.service.
+Created symlink from /etc/systemd/system/multi-user.target.wants/mongod.service to /etc/systemd/system/mongod.service.
+Created symlink from /etc/systemd/system/multi-user.target.wants/countly.service to /etc/systemd/system/countly.service.
+gpg: keyring `/tmp/tmp2tbpf9ea/secring.gpg' created
+gpg: keyring `/tmp/tmp2tbpf9ea/pubring.gpg' created
+gpg: requesting key E5267A6C from hkp server keyserver.ubuntu.com
+gpg: /tmp/tmp2tbpf9ea/trustdb.gpg: trustdb created
+gpg: key E5267A6C: public key "Launchpad PPA for Ondřej Surý" imported
+gpg: Total number processed: 1
+gpg:               imported: 1  (RSA: 1)
+OK
+Ign:1 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.2 InRelease
+Hit:2 http://dl.yarnpkg.com/debian stable InRelease
+Hit:3 http://in.archive.ubuntu.com/ubuntu xenial InRelease
+Ign:4 http://download.opensuse.org/repositories/home:/Horst3180/xUbuntu_16.04  InRelease
+Hit:5 http://archive.canonical.com/ubuntu xenial InRelease
+Hit:6 http://ppa.launchpad.net/gerardpuig/ppa/ubuntu xenial InRelease
+Get:7 http://security.ubuntu.com/ubuntu xenial-security InRelease [102 kB]
+Get:8 http://download.virtualbox.org/virtualbox/debian xenial InRelease [7,877 B]
+Hit:9 http://repository.spotify.com stable InRelease
+Get:10 http://in.archive.ubuntu.com/ubuntu xenial-updates InRelease [102 kB]
+Hit:11 http://download.opensuse.org/repositories/home:/Horst3180/xUbuntu_16.04  Release
+Hit:12 http://ppa.launchpad.net/linuxgndu/sqlitebrowser/ubuntu xenial InRelease
+Hit:13 http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.2 Release
+Ign:8 http://download.virtualbox.org/virtualbox/debian xenial InRelease
+Get:14 http://download.opensuse.org/repositories/home:/Horst3180/xUbuntu_16.04  Release.gpg [481 B]
+Hit:15 http://ppa.launchpad.net/nathan-renniewaldock/flux/ubuntu xenial InRelease
+Ign:14 http://download.opensuse.org/repositories/home:/Horst3180/xUbuntu_16.04  Release.gpg
+Hit:17 http://ppa.launchpad.net/nilarimogard/webupd8/ubuntu xenial InRelease
+Get:19 http://in.archive.ubuntu.com/ubuntu xenial-backports InRelease [102 kB]
+Hit:20 http://ppa.launchpad.net/numix/ppa/ubuntu xenial InRelease
+Get:21 http://ppa.launchpad.net/ondrej/apache2/ubuntu xenial InRelease [23.8 kB]
+Ign:22 http://dl.google.com/linux/chrome/deb stable InRelease
+Ign:18 http://toolbelt.heroku.com/ubuntu ./ InRelease
+Hit:23 http://dl.google.com/linux/chrome/deb stable Release
+Hit:25 http://ppa.launchpad.net/ubuntu-wine/ppa/ubuntu xenial InRelease
+Hit:27 http://ppa.launchpad.net/webupd8team/atom/ubuntu xenial InRelease
+Hit:26 http://toolbelt.heroku.com/ubuntu ./ Release
+Hit:29 http://ppa.launchpad.net/webupd8team/haguichi/ubuntu xenial InRelease
+Hit:30 http://ppa.launchpad.net/webupd8team/sublime-text-3/ubuntu xenial InRelease
+Get:31 http://ppa.launchpad.net/ondrej/apache2/ubuntu xenial/main amd64 Packages [12.5 kB]
+Get:32 http://ppa.launchpad.net/ondrej/apache2/ubuntu xenial/main i386 Packages [12.6 kB]
+Get:33 http://ppa.launchpad.net/ondrej/apache2/ubuntu xenial/main Translation-en [6,868 B]
+Hit:34 https://deb.nodesource.com/node_6.x xenial InRelease
+Get:35 https://fman.io/updates/ubuntu stable InRelease [1,800 B]
+Hit:35 https://fman.io/updates/ubuntu stable InRelease
+Hit:36 https://packagecloud.io/slacktechnologies/slack/debian jessie InRelease
+Fetched 371 kB in 21s (17.2 kB/s)
+Reading package lists...
+W: GPG error: http://download.virtualbox.org/virtualbox/debian xenial InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY A2F683C52980AECF
+W: The repository 'http://download.virtualbox.org/virtualbox/debian xenial InRelease' is not signed.
+W: GPG error: http://download.opensuse.org/repositories/home:/Horst3180/xUbuntu_16.04  Release: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 5A7D1D38BEB6D886
+W: The repository 'http://download.opensuse.org/repositories/home:/Horst3180/xUbuntu_16.04  Release' is not signed.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+autoconf is already the newest version (2.69-9).
+automake is already the newest version (1:1.15-4ubuntu1).
+autotools-dev is already the newest version (20150820.1).
+autotools-dev set to manually installed.
+g++ is already the newest version (4:5.3.1-1ubuntu1).
+make is already the newest version (4.1-6).
+pkg-config is already the newest version (0.29.1-0ubuntu1).
+python-setuptools is already the newest version (20.7.0-1).
+python-setuptools set to manually installed.
+python3-dev is already the newest version (3.5.1-3).
+python3-dev set to manually installed.
+binutils is already the newest version (2.26.1-1ubuntu1~16.04.3).
+binutils set to manually installed.
+git is already the newest version (1:2.7.4-0ubuntu1.1).
+libxml2-dev is already the newest version (2.9.3+dfsg1-1ubuntu0.2).
+libxml2-dev set to manually installed.
+The following packages were automatically installed and are no longer required:
+  gyp libboost-program-options1.58.0 libboost-thread1.58.0
+  libgoogle-perftools4 libjpeg62:i386 libjs-inherits libjs-node-uuid
+  libmuparser2v5 libqt5concurrent5 libtcmalloc-minimal4 libuv1 libuv1-dev
+  libv8-3.14.5 libxtst6:i386 libyaml-cpp0.5v5 node-abbrev node-ansi
+  node-ansi-color-table node-archy node-async node-block-stream
+  node-combined-stream node-cookie-jar node-delayed-stream node-forever-agent
+  node-form-data node-fstream node-fstream-ignore node-github-url-from-git
+  node-glob node-graceful-fs node-gyp node-inherits node-ini
+  node-json-stringify-safe node-lockfile node-lru-cache node-mime
+  node-minimatch node-mkdirp node-mute-stream node-node-uuid node-nopt
+  node-normalize-package-data node-npmlog node-once node-osenv node-qs
+  node-read node-read-package-json node-request node-retry node-rimraf
+  node-semver node-sha node-sigmund node-slide node-tar node-tunnel-agent
+  node-underscore node-which ubuntu-core-launcher
+Use 'sudo apt autoremove' to remove them.
+The following additional packages will be installed:
+  libcunit1 libev4 libevent-core-2.0-5 libevent-extra-2.0-5
+  libevent-openssl-2.0-5 libevent-pthreads-2.0-5 libjansson4 libjemalloc1
+  libltdl-dev libssl1.0.2 zlib1g zlib1g:i386
+Suggested packages:
+  cython-doc libcunit1-doc libtool-doc gfortran | fortran95-compiler gcj-jdk
+The following NEW packages will be installed:
+  cython libcunit1 libcunit1-dev libev-dev libev4 libevent-core-2.0-5
+  libevent-dev libevent-extra-2.0-5 libevent-openssl-2.0-5
+  libevent-pthreads-2.0-5 libjansson-dev libjansson4 libjemalloc-dev
+  libjemalloc1 libltdl-dev libssl1.0.2 libtool
+The following packages will be upgraded:
+  libssl-dev openssl zlib1g zlib1g:i386 zlib1g-dev
+5 upgraded, 17 newly installed, 0 to remove and 240 not upgraded.
+Need to get 6,547 kB of archives.
+After this operation, 17.1 MB of additional disk space will be used.
+Get:1 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 zlib1g-dev amd64 1:1.2.8.dfsg-2ubuntu4.1 [168 kB]
+Get:2 http://ppa.launchpad.net/ondrej/apache2/ubuntu xenial/main amd64 libssl1.0.2 amd64 1.0.2l-0~ubuntu16.04.1+deb.sury.org+1 [1,282 kB]
+Get:3 http://in.archive.ubuntu.com/ubuntu xenial-updates/main i386 zlib1g i386 1:1.2.8.dfsg-2ubuntu4.1 [52.1 kB]
+Get:4 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 zlib1g amd64 1:1.2.8.dfsg-2ubuntu4.1 [51.2 kB]
+Get:5 http://in.archive.ubuntu.com/ubuntu xenial/universe amd64 cython amd64 0.23.4-0ubuntu5 [1,527 kB]
+Get:6 http://in.archive.ubuntu.com/ubuntu xenial/universe amd64 libcunit1 amd64 2.1-3-dfsg-2 [26.9 kB]
+Get:7 http://in.archive.ubuntu.com/ubuntu xenial/universe amd64 libcunit1-dev amd64 2.1-3-dfsg-2 [54.5 kB]
+Get:8 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libevent-core-2.0-5 amd64 2.0.21-stable-2ubuntu0.16.04.1 [70.6 kB]
+Get:9 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libevent-extra-2.0-5 amd64 2.0.21-stable-2ubuntu0.16.04.1 [51.1 kB]
+Get:10 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libevent-pthreads-2.0-5 amd64 2.0.21-stable-2ubuntu0.16.04.1 [5,020 B]
+Get:11 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libevent-openssl-2.0-5 amd64 2.0.21-stable-2ubuntu0.16.04.1 [10.6 kB]
+Get:12 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libevent-dev amd64 2.0.21-stable-2ubuntu0.16.04.1 [211 kB]
+Get:13 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 libjansson4 amd64 2.7-3 [26.9 kB]
+Get:14 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 libjansson-dev amd64 2.7-3 [27.9 kB]
+Get:15 http://ppa.launchpad.net/ondrej/apache2/ubuntu xenial/main amd64 libssl-dev amd64 1.0.2l-0~ubuntu16.04.1+deb.sury.org+1 [1,550 kB]
+Get:16 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 libltdl-dev amd64 2.4.6-0.1 [162 kB]
+Get:17 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 libtool all 2.4.6-0.1 [193 kB]
+Get:18 http://in.archive.ubuntu.com/ubuntu xenial/universe amd64 libev4 amd64 1:4.22-1 [26.3 kB]
+Get:19 http://in.archive.ubuntu.com/ubuntu xenial/universe amd64 libev-dev amd64 1:4.22-1 [116 kB]
+Get:20 http://in.archive.ubuntu.com/ubuntu xenial/universe amd64 libjemalloc1 amd64 3.6.0-9ubuntu1 [78.9 kB]
+Get:21 http://in.archive.ubuntu.com/ubuntu xenial/universe amd64 libjemalloc-dev amd64 3.6.0-9ubuntu1 [170 kB]
+Get:22 http://ppa.launchpad.net/ondrej/apache2/ubuntu xenial/main amd64 openssl amd64 1.0.2l-0~ubuntu16.04.1+deb.sury.org+1 [686 kB]
+Preconfiguring packages ...
+Fetched 6,547 kB in 40s (161 kB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 331678 files and directories currently installed.)
+Preparing to unpack .../zlib1g-dev_1%3a1.2.8.dfsg-2ubuntu4.1_amd64.deb ...
+Unpacking zlib1g-dev:amd64 (1:1.2.8.dfsg-2ubuntu4.1) over (1:1.2.8.dfsg-2ubuntu4) ...
+Preparing to unpack .../zlib1g_1%3a1.2.8.dfsg-2ubuntu4.1_amd64.deb ...
+De-configuring zlib1g:i386 (1:1.2.8.dfsg-2ubuntu4) ...
+Unpacking zlib1g:amd64 (1:1.2.8.dfsg-2ubuntu4.1) over (1:1.2.8.dfsg-2ubuntu4) ...
+Preparing to unpack .../zlib1g_1%3a1.2.8.dfsg-2ubuntu4.1_i386.deb ...
+Unpacking zlib1g:i386 (1:1.2.8.dfsg-2ubuntu4.1) over (1:1.2.8.dfsg-2ubuntu4) ...
+Selecting previously unselected package libssl1.0.2:amd64.
+Preparing to unpack .../libssl1.0.2_1.0.2l-0~ubuntu16.04.1+deb.sury.org+1_amd64.deb ...
+Unpacking libssl1.0.2:amd64 (1.0.2l-0~ubuntu16.04.1+deb.sury.org+1) ...
+Selecting previously unselected package cython.
+Preparing to unpack .../cython_0.23.4-0ubuntu5_amd64.deb ...
+Unpacking cython (0.23.4-0ubuntu5) ...
+Selecting previously unselected package libcunit1:amd64.
+Preparing to unpack .../libcunit1_2.1-3-dfsg-2_amd64.deb ...
+Unpacking libcunit1:amd64 (2.1-3-dfsg-2) ...
+Selecting previously unselected package libcunit1-dev.
+Preparing to unpack .../libcunit1-dev_2.1-3-dfsg-2_amd64.deb ...
+Unpacking libcunit1-dev (2.1-3-dfsg-2) ...
+Selecting previously unselected package libevent-core-2.0-5:amd64.
+Preparing to unpack .../libevent-core-2.0-5_2.0.21-stable-2ubuntu0.16.04.1_amd64.deb ...
+Unpacking libevent-core-2.0-5:amd64 (2.0.21-stable-2ubuntu0.16.04.1) ...
+Selecting previously unselected package libevent-extra-2.0-5:amd64.
+Preparing to unpack .../libevent-extra-2.0-5_2.0.21-stable-2ubuntu0.16.04.1_amd64.deb ...
+Unpacking libevent-extra-2.0-5:amd64 (2.0.21-stable-2ubuntu0.16.04.1) ...
+Selecting previously unselected package libevent-pthreads-2.0-5:amd64.
+Preparing to unpack .../libevent-pthreads-2.0-5_2.0.21-stable-2ubuntu0.16.04.1_amd64.deb ...
+Unpacking libevent-pthreads-2.0-5:amd64 (2.0.21-stable-2ubuntu0.16.04.1) ...
+Selecting previously unselected package libevent-openssl-2.0-5:amd64.
+Preparing to unpack .../libevent-openssl-2.0-5_2.0.21-stable-2ubuntu0.16.04.1_amd64.deb ...
+Unpacking libevent-openssl-2.0-5:amd64 (2.0.21-stable-2ubuntu0.16.04.1) ...
+Selecting previously unselected package libevent-dev.
+Preparing to unpack .../libevent-dev_2.0.21-stable-2ubuntu0.16.04.1_amd64.deb ...
+Unpacking libevent-dev (2.0.21-stable-2ubuntu0.16.04.1) ...
+Selecting previously unselected package libjansson4:amd64.
+Preparing to unpack .../libjansson4_2.7-3_amd64.deb ...
+Unpacking libjansson4:amd64 (2.7-3) ...
+Selecting previously unselected package libjansson-dev:amd64.
+Preparing to unpack .../libjansson-dev_2.7-3_amd64.deb ...
+Unpacking libjansson-dev:amd64 (2.7-3) ...
+Selecting previously unselected package libltdl-dev:amd64.
+Preparing to unpack .../libltdl-dev_2.4.6-0.1_amd64.deb ...
+Unpacking libltdl-dev:amd64 (2.4.6-0.1) ...
+Preparing to unpack .../libssl-dev_1.0.2l-0~ubuntu16.04.1+deb.sury.org+1_amd64.deb ...
+Unpacking libssl-dev:amd64 (1.0.2l-0~ubuntu16.04.1+deb.sury.org+1) over (1.0.2g-1ubuntu4.6) ...
+Selecting previously unselected package libtool.
+Preparing to unpack .../libtool_2.4.6-0.1_all.deb ...
+Unpacking libtool (2.4.6-0.1) ...
+Preparing to unpack .../openssl_1.0.2l-0~ubuntu16.04.1+deb.sury.org+1_amd64.deb ...
+Unpacking openssl (1.0.2l-0~ubuntu16.04.1+deb.sury.org+1) over (1.0.2g-1ubuntu4.6) ...
+Selecting previously unselected package libev4.
+Preparing to unpack .../libev4_1%3a4.22-1_amd64.deb ...
+Unpacking libev4 (1:4.22-1) ...
+Selecting previously unselected package libev-dev.
+Preparing to unpack .../libev-dev_1%3a4.22-1_amd64.deb ...
+Unpacking libev-dev (1:4.22-1) ...
+Selecting previously unselected package libjemalloc1.
+Preparing to unpack .../libjemalloc1_3.6.0-9ubuntu1_amd64.deb ...
+Unpacking libjemalloc1 (3.6.0-9ubuntu1) ...
+Selecting previously unselected package libjemalloc-dev.
+Preparing to unpack .../libjemalloc-dev_3.6.0-9ubuntu1_amd64.deb ...
+Unpacking libjemalloc-dev (3.6.0-9ubuntu1) ...
+Processing triggers for libc-bin (2.23-0ubuntu7) ...
+Processing triggers for doc-base (0.10.7) ...
+Processing 1 added doc-base file...
+Setting up zlib1g:amd64 (1:1.2.8.dfsg-2ubuntu4.1) ...
+Setting up zlib1g:i386 (1:1.2.8.dfsg-2ubuntu4.1) ...
+Setting up zlib1g-dev:amd64 (1:1.2.8.dfsg-2ubuntu4.1) ...
+Setting up libssl1.0.2:amd64 (1.0.2l-0~ubuntu16.04.1+deb.sury.org+1) ...
+Setting up cython (0.23.4-0ubuntu5) ...
+Setting up libcunit1:amd64 (2.1-3-dfsg-2) ...
+Setting up libcunit1-dev (2.1-3-dfsg-2) ...
+Setting up libevent-core-2.0-5:amd64 (2.0.21-stable-2ubuntu0.16.04.1) ...
+Setting up libevent-extra-2.0-5:amd64 (2.0.21-stable-2ubuntu0.16.04.1) ...
+Setting up libevent-pthreads-2.0-5:amd64 (2.0.21-stable-2ubuntu0.16.04.1) ...
+Setting up libevent-openssl-2.0-5:amd64 (2.0.21-stable-2ubuntu0.16.04.1) ...
+Setting up libevent-dev (2.0.21-stable-2ubuntu0.16.04.1) ...
+Setting up libjansson4:amd64 (2.7-3) ...
+Setting up libjansson-dev:amd64 (2.7-3) ...
+Setting up libltdl-dev:amd64 (2.4.6-0.1) ...
+Setting up libssl-dev:amd64 (1.0.2l-0~ubuntu16.04.1+deb.sury.org+1) ...
+Setting up libtool (2.4.6-0.1) ...
+Setting up openssl (1.0.2l-0~ubuntu16.04.1+deb.sury.org+1) ...
+Setting up libev4 (1:4.22-1) ...
+Setting up libev-dev (1:4.22-1) ...
+Setting up libjemalloc1 (3.6.0-9ubuntu1) ...
+Setting up libjemalloc-dev (3.6.0-9ubuntu1) ...
+Processing triggers for man-db (2.7.5-1) ...
+Processing triggers for libc-bin (2.23-0ubuntu7) ...
+W: --force-yes is deprecated, use one of the options starting with --allow instead.
+Cloning into 'nghttp2'...
+Note: checking out 'tags/v1.12.0'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b <new-branch-name>
+
+HEAD is now at acb5d45... Update man pages
+libtoolize: putting auxiliary files in AC_CONFIG_AUX_DIR, '.'.
+libtoolize: copying file './ltmain.sh'
+libtoolize: putting macros in AC_CONFIG_MACRO_DIRS, 'm4'.
+libtoolize: copying file 'm4/libtool.m4'
+libtoolize: copying file 'm4/ltoptions.m4'
+libtoolize: copying file 'm4/ltsugar.m4'
+libtoolize: copying file 'm4/ltversion.m4'
+libtoolize: copying file 'm4/lt~obsolete.m4'
+configure.ac:32: installing './compile'
+configure.ac:35: installing './config.guess'
+configure.ac:35: installing './config.sub'
+configure.ac:41: installing './install-sh'
+configure.ac:41: installing './missing'
+Makefile.am: installing './INSTALL'
+examples/Makefile.am: installing './depcomp'
+parallel-tests: installing './test-driver'
+checking for gcc... gcc-4.8
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc-4.8 accepts -g... yes
+checking for gcc-4.8 option to accept ISO C89... none needed
+checking whether gcc-4.8 understands -c and -o together... yes
+checking how to run the C preprocessor... gcc-4.8 -E
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking minix/config.h usability... no
+checking minix/config.h presence... no
+checking for minix/config.h... no
+checking whether it is safe to define __EXTENSIONS__... yes
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... x86_64-pc-linux-gnu
+checking how to print strings... printf
+checking for a sed that does not truncate output... /bin/sed
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc-4.8... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking how to convert x86_64-pc-linux-gnu file names to x86_64-pc-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-pc-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking for gawk... gawk
+checking command to parse /usr/bin/nm -B output from gcc-4.8 object... ok
+checking for sysroot... no
+checking for a working dd... /bin/dd
+checking how to truncate binary pipes... /bin/dd bs=4096 count=1
+checking for mt... mt
+checking if mt is a manifest tool... no
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc-4.8 supports -fno-rtti -fno-exceptions... no
+checking for gcc-4.8 option to produce PIC... -fPIC -DPIC
+checking if gcc-4.8 PIC flag -fPIC -DPIC works... yes
+checking if gcc-4.8 static flag -static works... yes
+checking if gcc-4.8 supports -c -o file.o... yes
+checking if gcc-4.8 supports -c -o file.o... (cached) yes
+checking whether the gcc-4.8 linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking target system type... x86_64-pc-linux-gnu
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking whether make sets $(MAKE)... yes
+checking for style of include used by make... GNU
+checking whether make supports nested variables... yes
+checking dependency style of gcc-4.8... gcc3
+checking whether make supports nested variables... (cached) yes
+checking for gcc... (cached) gcc-4.8
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether gcc-4.8 accepts -g... (cached) yes
+checking for gcc-4.8 option to accept ISO C89... (cached) none needed
+checking whether gcc-4.8 understands -c and -o together... (cached) yes
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++-4.8 accepts -g... yes
+checking how to run the C++ preprocessor... g++-4.8 -E
+checking for ld used by g++-4.8... /usr/bin/ld -m elf_x86_64
+checking if the linker (/usr/bin/ld -m elf_x86_64) is GNU ld... yes
+checking whether the g++-4.8 linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking for g++-4.8 option to produce PIC... -fPIC -DPIC
+checking if g++-4.8 PIC flag -fPIC -DPIC works... yes
+checking if g++-4.8 static flag -static works... yes
+checking if g++-4.8 supports -c -o file.o... yes
+checking if g++-4.8 supports -c -o file.o... (cached) yes
+checking whether the g++-4.8 linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking dynamic linker characteristics... (cached) GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking dependency style of g++-4.8... gcc3
+checking how to run the C preprocessor... gcc-4.8 -E
+checking whether ln -s works... yes
+checking whether make sets $(MAKE)... (cached) yes
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.20... yes
+checking for a Python interpreter with version >= 2.7... python
+checking for python... /usr/bin/python
+checking for python version... 2.7
+checking for python platform... linux2
+checking for python script directory... ${prefix}/lib/python2.7/dist-packages
+checking for python extension module directory... ${exec_prefix}/lib/python2.7/dist-packages
+checking for python2.7... (cached) /usr/bin/python
+checking for a version of Python >= '2.1.0'... yes
+checking for a version of Python >= '2.7'... yes
+checking for the distutils Python package... yes
+checking for Python include path... -I/usr/include/python2.7
+checking for Python library path... -L/usr/lib -lpython2.7
+checking for Python site-packages path... /usr/lib/python2.7/dist-packages
+checking python extra libraries... -lpthread -ldl  -lutil
+checking python extra linking flags... -Xlinker -export-dynamic -Wl,-O1 -Wl,-Bsymbolic-functions
+checking consistency of all components of python development environment... yes
+checking for cython.py... no
+checking for cython... cython
+checking whether g++-4.8 supports C++11 features by default... no
+checking whether g++-4.8 supports C++11 features with -std=c++11... yes
+checking whether std::future is available... yes
+checking whether std::map::emplace is available... yes
+checking for ZLIB... yes
+checking for library containing dlopen... -ldl
+checking for CUNIT... yes
+checking for ev_time in -lev... yes
+checking ev.h usability... yes
+checking ev.h presence... yes
+checking for ev.h... yes
+checking for OPENSSL... yes
+checking for LIBEVENT_OPENSSL... yes
+checking for JANSSON... yes
+checking for xml2-config... /usr/bin/xml2-config
+checking for libxml - version >= 2.7.7... yes (version 2.9.3)
+checking for library containing malloc_stats_print... -ljemalloc
+checking for LIBSPDYLAY... no
+configure: No package 'libspdylay' found
+configure: The SPDY support in nghttpx and h2load will be disabled.
+checking whether to enable assertions... yes
+checking arpa/inet.h usability... yes
+checking arpa/inet.h presence... yes
+checking for arpa/inet.h... yes
+checking fcntl.h usability... yes
+checking fcntl.h presence... yes
+checking for fcntl.h... yes
+checking for inttypes.h... (cached) yes
+checking limits.h usability... yes
+checking limits.h presence... yes
+checking for limits.h... yes
+checking netdb.h usability... yes
+checking netdb.h presence... yes
+checking for netdb.h... yes
+checking netinet/in.h usability... yes
+checking netinet/in.h presence... yes
+checking for netinet/in.h... yes
+checking pwd.h usability... yes
+checking pwd.h presence... yes
+checking for pwd.h... yes
+checking stddef.h usability... yes
+checking stddef.h presence... yes
+checking for stddef.h... yes
+checking for stdint.h... (cached) yes
+checking for stdlib.h... (cached) yes
+checking for string.h... (cached) yes
+checking sys/socket.h usability... yes
+checking sys/socket.h presence... yes
+checking for sys/socket.h... yes
+checking sys/time.h usability... yes
+checking sys/time.h presence... yes
+checking for sys/time.h... yes
+checking syslog.h usability... yes
+checking syslog.h presence... yes
+checking for syslog.h... yes
+checking time.h usability... yes
+checking time.h presence... yes
+checking for time.h... yes
+checking for unistd.h... (cached) yes
+checking for size_t... yes
+checking for ssize_t... yes
+checking for uint8_t... yes
+checking for uint16_t... yes
+checking for uint32_t... yes
+checking for uint64_t... yes
+checking for int8_t... yes
+checking for int16_t... yes
+checking for int32_t... yes
+checking for int64_t... yes
+checking for off_t... yes
+checking for pid_t... yes
+checking for uid_t in sys/types.h... yes
+checking for ptrdiff_t... yes
+checking whether byte ordering is bigendian... no
+checking for inline... inline
+checking for special C compiler options needed for large files... no
+checking for _FILE_OFFSET_BITS value needed for large files... no
+checking for struct tm.tm_gmtoff... yes
+checking size of int *... 8
+checking size of time_t... 8
+checking for unistd.h... (cached) yes
+checking for working chown... yes
+checking for error_at_line... yes
+checking vfork.h usability... no
+checking vfork.h presence... no
+checking for vfork.h... no
+checking for fork... yes
+checking for vfork... yes
+checking for working fork... yes
+checking for working vfork... (cached) yes
+checking whether strerror_r is declared... yes
+checking for strerror_r... yes
+checking whether strerror_r returns char *... yes
+checking for working strnlen... yes
+checking for _Exit... yes
+checking for accept4... yes
+checking for dup2... yes
+checking for getcwd... yes
+checking for getpwnam... yes
+checking for localtime_r... yes
+checking for memchr... yes
+checking for memmove... yes
+checking for memset... yes
+checking for socket... yes
+checking for sqrt... no
+checking for strchr... yes
+checking for strdup... yes
+checking for strerror... yes
+checking for strndup... yes
+checking for strstr... yes
+checking for strtol... yes
+checking for strtoul... yes
+checking for timegm... yes
+checking for timerfd_create... yes
+checking whether initgroups is declared... yes
+checking linux/version.h usability... yes
+checking linux/version.h presence... yes
+checking for linux/version.h... yes
+checking for Linux epoll(7) interface... yes
+checking whether C compiler accepts -fvisibility=hidden... yes
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating lib/Makefile
+config.status: creating lib/libnghttp2.pc
+config.status: creating lib/includes/Makefile
+config.status: creating lib/includes/nghttp2/nghttp2ver.h
+config.status: creating tests/Makefile
+config.status: creating tests/testdata/Makefile
+config.status: creating third-party/Makefile
+config.status: creating src/Makefile
+config.status: creating src/includes/Makefile
+config.status: creating src/libnghttp2_asio.pc
+config.status: creating examples/Makefile
+config.status: creating python/Makefile
+config.status: creating python/setup.py
+config.status: creating integration-tests/Makefile
+config.status: creating integration-tests/config.go
+config.status: creating integration-tests/setenv
+config.status: creating doc/Makefile
+config.status: creating doc/conf.py
+config.status: creating doc/index.rst
+config.status: creating doc/package_README.rst
+config.status: creating doc/tutorial-client.rst
+config.status: creating doc/tutorial-server.rst
+config.status: creating doc/tutorial-hpack.rst
+config.status: creating doc/nghttpx-howto.rst
+config.status: creating doc/h2load-howto.rst
+config.status: creating doc/libnghttp2_asio.rst
+config.status: creating doc/python-apiref.rst
+config.status: creating doc/building-android-binary.rst
+config.status: creating doc/nghttp2.h.rst
+config.status: creating doc/nghttp2ver.h.rst
+config.status: creating doc/asio_http2.h.rst
+config.status: creating doc/asio_http2_server.h.rst
+config.status: creating doc/asio_http2_client.h.rst
+config.status: creating doc/contribute.rst
+config.status: creating contrib/Makefile
+config.status: creating script/Makefile
+config.status: creating config.h
+config.status: executing libtool commands
+config.status: executing depfiles commands
+configure: summary of build options:
+
+    Package version: 1.12.0
+    Library version: 22:0:8
+    Install prefix:  /usr/local
+    System types:
+      Build:         x86_64-pc-linux-gnu
+      Host:          x86_64-pc-linux-gnu
+      Target:        x86_64-pc-linux-gnu
+    Compiler:
+      C compiler:     gcc-4.8
+      CFLAGS:         -g -O2 -fPIC
+      LDFLAGS:        
+      C++ compiler:   g++-4.8
+      CXXFLAGS:       -g -O2
+      CXXCPP:         g++-4.8 -E
+      C preprocessor: gcc-4.8 -E
+      CPPFLAGS:       -fPIC
+      WARNCFLAGS:     
+      CXX1XCXXFLAGS:   -std=c++11
+      EXTRACFLAG:     -fvisibility=hidden
+      LIBS:           
+    Library:
+      Shared:         yes
+      Static:         yes
+    Python:
+      Python:         /usr/bin/python
+      PYTHON_VERSION: 2.7
+      pyexecdir:      ${exec_prefix}/lib/python2.7/dist-packages
+      Python-dev:     yes
+      PYTHON_CPPFLAGS:-I/usr/include/python2.7
+      PYTHON_LDFLAGS: -L/usr/lib -lpython2.7
+      Cython:         cython
+    Test:
+      CUnit:          yes (CFLAGS='' LIBS='-lcunit')
+      Failmalloc:     yes
+    Libs:
+      OpenSSL:        yes (CFLAGS='' LIBS='-lssl -lcrypto')
+      Libxml2:        yes (CFLAGS='-I/usr/include/libxml2' LIBS='-lxml2')
+      Libev:          yes (CFLAGS='' LIBS='-lev')
+      Libevent(SSL):  yes (CFLAGS='' LIBS='-levent_openssl -levent')
+      Spdylay:        no (CFLAGS='' LIBS='')
+      Jansson:        yes (CFLAGS='' LIBS='-ljansson')
+      Jemalloc:       yes (LIBS='-ljemalloc')
+      Zlib:           yes (CFLAGS='' LIBS='-lz')
+      Boost CPPFLAGS: 
+      Boost LDFLAGS:  
+      Boost::ASIO:    
+      Boost::System:  
+      Boost::Thread:  
+    Third-party:
+      http-parser:    yes
+      MRuby:          no (CFLAGS='' LIBS='')
+      Neverbleed:     no
+    Features:
+      Applications:   no
+      HPACK tools:    yes
+      Libnghttp2_asio:no
+      Examples:       no
+      Python bindings:yes
+      Threading:      yes
+
+make  all-recursive
+make[1]: Entering directory '/home/wirddin/Projects/Countly/countly-server/bin/nghttp2'
+Making all in lib
+make[2]: Entering directory '/home/wirddin/Projects/Countly/countly-server/bin/nghttp2/lib'
+Making all in includes
+make[3]: Entering directory '/home/wirddin/Projects/Countly/countly-server/bin/nghttp2/lib/includes'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/home/wirddin/Projects/Countly/countly-server/bin/nghttp2/lib/includes'
+make[3]: Entering directory '/home/wirddin/Projects/Countly/countly-server/bin/nghttp2/lib'
+  CC       nghttp2_pq.lo
+  CC       nghttp2_map.lo
+  CC       nghttp2_queue.lo
+  CC       nghttp2_frame.lo
+  CC       nghttp2_buf.lo
+  CC       nghttp2_stream.lo
+  CC       nghttp2_outbound_item.lo
+  CC       nghttp2_session.lo
+  CC       nghttp2_submit.lo
+  CC       nghttp2_helper.lo
+  CC       nghttp2_npn.lo
+  CC       nghttp2_hd.lo
+  CC       nghttp2_hd_huffman.lo
+  CC       nghttp2_hd_huffman_data.lo
+  CC       nghttp2_version.lo
+  CC       nghttp2_priority_spec.lo
+  CC       nghttp2_option.lo
+  CC       nghttp2_callbacks.lo
+  CC       nghttp2_mem.lo
+  CC       nghttp2_http.lo
+  CC       nghttp2_rcbuf.lo
+  CCLD     libnghttp2.la
+ar: `u' modifier ignored since `D' is the default (see `U')
+make[3]: Leaving directory '/home/wirddin/Projects/Countly/countly-server/bin/nghttp2/lib'
+make[2]: Leaving directory '/home/wirddin/Projects/Countly/countly-server/bin/nghttp2/lib'
+Making all in third-party
+make[2]: Entering directory '/home/wirddin/Projects/Countly/countly-server/bin/nghttp2/third-party'
+  CC       http-parser/http_parser.lo
+  CCLD     libhttp-parser.la
+ar: `u' modifier ignored since `D' is the default (see `U')
+make[2]: Leaving directory '/home/wirddin/Projects/Countly/countly-server/bin/nghttp2/third-party'
+Making all in src
+make[2]: Entering directory '/home/wirddin/Projects/Countly/countly-server/bin/nghttp2/src'
+Making all in includes
+make[3]: Entering directory '/home/wirddin/Projects/Countly/countly-server/bin/nghttp2/src/includes'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/home/wirddin/Projects/Countly/countly-server/bin/nghttp2/src/includes'
+make[3]: Entering directory '/home/wirddin/Projects/Countly/countly-server/bin/nghttp2/src'
+  CXX      inflatehd.o
+  CC       comp_helper.o
+  CXXLD    inflatehd
+  CXX      deflatehd.o
+  CXXLD    deflatehd
+make[3]: Leaving directory '/home/wirddin/Projects/Countly/countly-server/bin/nghttp2/src'
+make[2]: Leaving directory '/home/wirddin/Projects/Countly/countly-server/bin/nghttp2/src'
+Making all in examples
+make[2]: Entering directory '/home/wirddin/Projects/Countly/countly-server/bin/nghttp2/examples'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/home/wirddin/Projects/Countly/countly-server/bin/nghttp2/examples'
+Making all in python
+make[2]: Entering directory '/home/wirddin/Projects/Countly/countly-server/bin/nghttp2/python'
+cython -o nghttp2.c nghttp2.pyx
+/usr/bin/python setup.py build
+running build
+running build_ext
+building 'nghttp2' extension
+creating build
+creating build/temp.linux-x86_64-2.7
+gcc-4.8 -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fno-strict-aliasing -g -O2 -fPIC -fPIC -fPIC -I../lib -I../lib/includes -I../lib/includes -I/usr/include/python2.7 -c nghttp2.c -o build/temp.linux-x86_64-2.7/nghttp2.o
+creating build/lib.linux-x86_64-2.7
+x86_64-linux-gnu-gcc -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -Wl,-z,relro -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -Wdate-time -D_FORTIFY_SOURCE=2 -g -fstack-protector -Wformat -Werror=format-security -Wl,-Bsymbolic-functions -Wl,-z,relro -g -O2 -fPIC -fPIC build/temp.linux-x86_64-2.7/nghttp2.o -L../lib/.libs -L../lib -L.. -lnghttp2 -o build/lib.linux-x86_64-2.7/nghttp2.so
+make[2]: Leaving directory '/home/wirddin/Projects/Countly/countly-server/bin/nghttp2/python'
+Making all in tests
+make[2]: Entering directory '/home/wirddin/Projects/Countly/countly-server/bin/nghttp2/tests'
+Making all in testdata
+make[3]: Entering directory '/home/wirddin/Projects/Countly/countly-server/bin/nghttp2/tests/testdata'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/home/wirddin/Projects/Countly/countly-server/bin/nghttp2/tests/testdata'
+make[3]: Entering directory '/home/wirddin/Projects/Countly/countly-server/bin/nghttp2/tests'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/home/wirddin/Projects/Countly/countly-server/bin/nghttp2/tests'
+make[2]: Leaving directory '/home/wirddin/Projects/Countly/countly-server/bin/nghttp2/tests'
+Making all in integration-tests
+make[2]: Entering directory '/home/wirddin/Projects/Countly/countly-server/bin/nghttp2/integration-tests'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/home/wirddin/Projects/Countly/countly-server/bin/nghttp2/integration-tests'
+Making all in doc
+make[2]: Entering directory '/home/wirddin/Projects/Countly/countly-server/bin/nghttp2/doc'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/home/wirddin/Projects/Countly/countly-server/bin/nghttp2/doc'
+Making all in contrib
+make[2]: Entering directory '/home/wirddin/Projects/Countly/countly-server/bin/nghttp2/contrib'
+rm -f nghttpx-init nghttpx-init.tmp
+sed -e 's|@bindir[@]|/usr/local/bin|g' nghttpx-init.in > nghttpx-init.tmp
+chmod +x nghttpx-init.tmp
+mv nghttpx-init.tmp nghttpx-init
+sed -e 's|@bindir[@]|/usr/local/bin|g' nghttpx.service.in > nghttpx.service
+sed -e 's|@bindir[@]|/usr/local/bin|g' nghttpx-upstart.conf.in > nghttpx-upstart.conf
+make[2]: Leaving directory '/home/wirddin/Projects/Countly/countly-server/bin/nghttp2/contrib'
+Making all in script
+make[2]: Entering directory '/home/wirddin/Projects/Countly/countly-server/bin/nghttp2/script'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/home/wirddin/Projects/Countly/countly-server/bin/nghttp2/script'
+make[2]: Entering directory '/home/wirddin/Projects/Countly/countly-server/bin/nghttp2'
+make[2]: Leaving directory '/home/wirddin/Projects/Countly/countly-server/bin/nghttp2'
+make[1]: Leaving directory '/home/wirddin/Projects/Countly/countly-server/bin/nghttp2'
+Making install in lib
+make[1]: Entering directory '/home/wirddin/Projects/Countly/countly-server/bin/nghttp2/lib'
+Making install in includes
+make[2]: Entering directory '/home/wirddin/Projects/Countly/countly-server/bin/nghttp2/lib/includes'
+make[3]: Entering directory '/home/wirddin/Projects/Countly/countly-server/bin/nghttp2/lib/includes'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/local/include'
+ /bin/mkdir -p '/usr/local/include/nghttp2'
+ /usr/bin/install -c -m 644  nghttp2/nghttp2.h nghttp2/nghttp2ver.h '/usr/local/include/nghttp2'
+make[3]: Leaving directory '/home/wirddin/Projects/Countly/countly-server/bin/nghttp2/lib/includes'
+make[2]: Leaving directory '/home/wirddin/Projects/Countly/countly-server/bin/nghttp2/lib/includes'
+make[2]: Entering directory '/home/wirddin/Projects/Countly/countly-server/bin/nghttp2/lib'
+make[3]: Entering directory '/home/wirddin/Projects/Countly/countly-server/bin/nghttp2/lib'
+ /bin/mkdir -p '/usr/local/lib'
+ /bin/bash ../libtool   --mode=install /usr/bin/install -c   libnghttp2.la '/usr/local/lib'
+libtool: install: /usr/bin/install -c .libs/libnghttp2.so.14.8.0 /usr/local/lib/libnghttp2.so.14.8.0
+libtool: install: (cd /usr/local/lib && { ln -s -f libnghttp2.so.14.8.0 libnghttp2.so.14 || { rm -f libnghttp2.so.14 && ln -s libnghttp2.so.14.8.0 libnghttp2.so.14; }; })
+libtool: install: (cd /usr/local/lib && { ln -s -f libnghttp2.so.14.8.0 libnghttp2.so || { rm -f libnghttp2.so && ln -s libnghttp2.so.14.8.0 libnghttp2.so; }; })
+libtool: install: /usr/bin/install -c .libs/libnghttp2.lai /usr/local/lib/libnghttp2.la
+libtool: install: /usr/bin/install -c .libs/libnghttp2.a /usr/local/lib/libnghttp2.a
+libtool: install: chmod 644 /usr/local/lib/libnghttp2.a
+libtool: install: ranlib /usr/local/lib/libnghttp2.a
+libtool: finish: PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin:/sbin" ldconfig -n /usr/local/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/local/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/mkdir -p '/usr/local/lib/pkgconfig'
+ /usr/bin/install -c -m 644 libnghttp2.pc '/usr/local/lib/pkgconfig'
+make[3]: Leaving directory '/home/wirddin/Projects/Countly/countly-server/bin/nghttp2/lib'
+make[2]: Leaving directory '/home/wirddin/Projects/Countly/countly-server/bin/nghttp2/lib'
+make[1]: Leaving directory '/home/wirddin/Projects/Countly/countly-server/bin/nghttp2/lib'
+Making install in third-party
+make[1]: Entering directory '/home/wirddin/Projects/Countly/countly-server/bin/nghttp2/third-party'
+make[2]: Entering directory '/home/wirddin/Projects/Countly/countly-server/bin/nghttp2/third-party'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/home/wirddin/Projects/Countly/countly-server/bin/nghttp2/third-party'
+make[1]: Leaving directory '/home/wirddin/Projects/Countly/countly-server/bin/nghttp2/third-party'
+Making install in src
+make[1]: Entering directory '/home/wirddin/Projects/Countly/countly-server/bin/nghttp2/src'
+Making install in includes
+make[2]: Entering directory '/home/wirddin/Projects/Countly/countly-server/bin/nghttp2/src/includes'
+make[3]: Entering directory '/home/wirddin/Projects/Countly/countly-server/bin/nghttp2/src/includes'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Leaving directory '/home/wirddin/Projects/Countly/countly-server/bin/nghttp2/src/includes'
+make[2]: Leaving directory '/home/wirddin/Projects/Countly/countly-server/bin/nghttp2/src/includes'
+make[2]: Entering directory '/home/wirddin/Projects/Countly/countly-server/bin/nghttp2/src'
+make[3]: Entering directory '/home/wirddin/Projects/Countly/countly-server/bin/nghttp2/src'
+ /bin/mkdir -p '/usr/local/bin'
+  /bin/bash ../libtool   --mode=install /usr/bin/install -c inflatehd deflatehd '/usr/local/bin'
+libtool: install: /usr/bin/install -c .libs/inflatehd /usr/local/bin/inflatehd
+libtool: install: /usr/bin/install -c .libs/deflatehd /usr/local/bin/deflatehd
+make[3]: Leaving directory '/home/wirddin/Projects/Countly/countly-server/bin/nghttp2/src'
+make[2]: Leaving directory '/home/wirddin/Projects/Countly/countly-server/bin/nghttp2/src'
+make[1]: Leaving directory '/home/wirddin/Projects/Countly/countly-server/bin/nghttp2/src'
+Making install in examples
+make[1]: Entering directory '/home/wirddin/Projects/Countly/countly-server/bin/nghttp2/examples'
+make[2]: Entering directory '/home/wirddin/Projects/Countly/countly-server/bin/nghttp2/examples'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/home/wirddin/Projects/Countly/countly-server/bin/nghttp2/examples'
+make[1]: Leaving directory '/home/wirddin/Projects/Countly/countly-server/bin/nghttp2/examples'
+Making install in python
+make[1]: Entering directory '/home/wirddin/Projects/Countly/countly-server/bin/nghttp2/python'
+/usr/bin/python setup.py build
+running build
+running build_ext
+make[2]: Entering directory '/home/wirddin/Projects/Countly/countly-server/bin/nghttp2/python'
+/usr/bin/python setup.py install --prefix=/usr/local
+running install
+running bdist_egg
+running egg_info
+creating python_nghttp2.egg-info
+writing python_nghttp2.egg-info/PKG-INFO
+writing top-level names to python_nghttp2.egg-info/top_level.txt
+writing dependency_links to python_nghttp2.egg-info/dependency_links.txt
+writing manifest file 'python_nghttp2.egg-info/SOURCES.txt'
+reading manifest file 'python_nghttp2.egg-info/SOURCES.txt'
+writing manifest file 'python_nghttp2.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_ext
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+copying build/lib.linux-x86_64-2.7/nghttp2.so -> build/bdist.linux-x86_64/egg
+creating stub loader for nghttp2.so
+byte-compiling build/bdist.linux-x86_64/egg/nghttp2.py to nghttp2.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying python_nghttp2.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying python_nghttp2.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying python_nghttp2.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying python_nghttp2.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+writing build/bdist.linux-x86_64/egg/EGG-INFO/native_libs.txt
+zip_safe flag not set; analyzing archive contents...
+creating dist
+creating 'dist/python_nghttp2-1.12.0-py2.7-linux-x86_64.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing python_nghttp2-1.12.0-py2.7-linux-x86_64.egg
+Copying python_nghttp2-1.12.0-py2.7-linux-x86_64.egg to /usr/local/lib/python2.7/dist-packages
+Adding python-nghttp2 1.12.0 to easy-install.pth file
+
+Installed /usr/local/lib/python2.7/dist-packages/python_nghttp2-1.12.0-py2.7-linux-x86_64.egg
+Processing dependencies for python-nghttp2==1.12.0
+Finished processing dependencies for python-nghttp2==1.12.0
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/home/wirddin/Projects/Countly/countly-server/bin/nghttp2/python'
+make[1]: Leaving directory '/home/wirddin/Projects/Countly/countly-server/bin/nghttp2/python'
+Making install in tests
+make[1]: Entering directory '/home/wirddin/Projects/Countly/countly-server/bin/nghttp2/tests'
+Making install in testdata
+make[2]: Entering directory '/home/wirddin/Projects/Countly/countly-server/bin/nghttp2/tests/testdata'
+make[3]: Entering directory '/home/wirddin/Projects/Countly/countly-server/bin/nghttp2/tests/testdata'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/home/wirddin/Projects/Countly/countly-server/bin/nghttp2/tests/testdata'
+make[2]: Leaving directory '/home/wirddin/Projects/Countly/countly-server/bin/nghttp2/tests/testdata'
+make[2]: Entering directory '/home/wirddin/Projects/Countly/countly-server/bin/nghttp2/tests'
+make[3]: Entering directory '/home/wirddin/Projects/Countly/countly-server/bin/nghttp2/tests'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/home/wirddin/Projects/Countly/countly-server/bin/nghttp2/tests'
+make[2]: Leaving directory '/home/wirddin/Projects/Countly/countly-server/bin/nghttp2/tests'
+make[1]: Leaving directory '/home/wirddin/Projects/Countly/countly-server/bin/nghttp2/tests'
+Making install in integration-tests
+make[1]: Entering directory '/home/wirddin/Projects/Countly/countly-server/bin/nghttp2/integration-tests'
+make[2]: Entering directory '/home/wirddin/Projects/Countly/countly-server/bin/nghttp2/integration-tests'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/home/wirddin/Projects/Countly/countly-server/bin/nghttp2/integration-tests'
+make[1]: Leaving directory '/home/wirddin/Projects/Countly/countly-server/bin/nghttp2/integration-tests'
+Making install in doc
+make[1]: Entering directory '/home/wirddin/Projects/Countly/countly-server/bin/nghttp2/doc'
+make[2]: Entering directory '/home/wirddin/Projects/Countly/countly-server/bin/nghttp2/doc'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/local/share/man/man1'
+ /usr/bin/install -c -m 644 nghttp.1 nghttpd.1 nghttpx.1 h2load.1 '/usr/local/share/man/man1'
+make[2]: Leaving directory '/home/wirddin/Projects/Countly/countly-server/bin/nghttp2/doc'
+make[1]: Leaving directory '/home/wirddin/Projects/Countly/countly-server/bin/nghttp2/doc'
+Making install in contrib
+make[1]: Entering directory '/home/wirddin/Projects/Countly/countly-server/bin/nghttp2/contrib'
+make[2]: Entering directory '/home/wirddin/Projects/Countly/countly-server/bin/nghttp2/contrib'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/home/wirddin/Projects/Countly/countly-server/bin/nghttp2/contrib'
+make[1]: Leaving directory '/home/wirddin/Projects/Countly/countly-server/bin/nghttp2/contrib'
+Making install in script
+make[1]: Entering directory '/home/wirddin/Projects/Countly/countly-server/bin/nghttp2/script'
+make[2]: Entering directory '/home/wirddin/Projects/Countly/countly-server/bin/nghttp2/script'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/local/share/nghttp2'
+ /usr/bin/install -c fetch-ocsp-response '/usr/local/share/nghttp2'
+make[2]: Leaving directory '/home/wirddin/Projects/Countly/countly-server/bin/nghttp2/script'
+make[1]: Leaving directory '/home/wirddin/Projects/Countly/countly-server/bin/nghttp2/script'
+make[1]: Entering directory '/home/wirddin/Projects/Countly/countly-server/bin/nghttp2'
+make[2]: Entering directory '/home/wirddin/Projects/Countly/countly-server/bin/nghttp2'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/local/share/doc/nghttp2'
+ /usr/bin/install -c -m 644 README.rst '/usr/local/share/doc/nghttp2'
+make[2]: Leaving directory '/home/wirddin/Projects/Countly/countly-server/bin/nghttp2'
+make[1]: Leaving directory '/home/wirddin/Projects/Countly/countly-server/bin/nghttp2'
+/usr/bin/node-gyp -> /usr/lib/node_modules/node-gyp/bin/node-gyp.js
+/usr/lib
+└─┬ node-gyp@3.6.2 
+  ├─┬ fstream@1.0.11 
+  │ └── inherits@2.0.3 
+  ├─┬ glob@7.1.2 
+  │ ├── fs.realpath@1.0.0 
+  │ ├─┬ inflight@1.0.6 
+  │ │ └── wrappy@1.0.2 
+  │ ├── once@1.4.0 
+  │ └── path-is-absolute@1.0.1 
+  ├── graceful-fs@4.1.11 
+  ├─┬ minimatch@3.0.4 
+  │ └─┬ brace-expansion@1.1.8 
+  │   ├── balanced-match@1.0.0 
+  │   └── concat-map@0.0.1 
+  ├─┬ mkdirp@0.5.1 
+  │ └── minimist@0.0.8 
+  ├─┬ nopt@3.0.6 
+  │ └── abbrev@1.1.0 
+  ├─┬ npmlog@4.1.0 
+  │ ├─┬ are-we-there-yet@1.1.4 
+  │ │ ├── delegates@1.0.0 
+  │ │ └─┬ readable-stream@2.3.2 
+  │ │   ├── core-util-is@1.0.2 
+  │ │   ├── isarray@1.0.0 
+  │ │   ├── process-nextick-args@1.0.7 
+  │ │   ├── string_decoder@1.0.3 
+  │ │   └── util-deprecate@1.0.2 
+  │ ├── console-control-strings@1.1.0 
+  │ ├─┬ gauge@2.7.4 
+  │ │ ├── aproba@1.1.2 
+  │ │ ├── has-unicode@2.0.1 
+  │ │ ├── object-assign@4.1.1 
+  │ │ ├── signal-exit@3.0.2 
+  │ │ ├─┬ string-width@1.0.2 
+  │ │ │ ├── code-point-at@1.1.0 
+  │ │ │ └─┬ is-fullwidth-code-point@1.0.0 
+  │ │ │   └── number-is-nan@1.0.1 
+  │ │ ├─┬ strip-ansi@3.0.1 
+  │ │ │ └── ansi-regex@2.1.1 
+  │ │ └── wide-align@1.1.2 
+  │ └── set-blocking@2.0.0 
+  ├─┬ osenv@0.1.4 
+  │ ├── os-homedir@1.0.2 
+  │ └── os-tmpdir@1.0.2 
+  ├─┬ request@2.81.0 
+  │ ├── aws-sign2@0.6.0 
+  │ ├── aws4@1.6.0 
+  │ ├── caseless@0.12.0 
+  │ ├─┬ combined-stream@1.0.5 
+  │ │ └── delayed-stream@1.0.0 
+  │ ├── extend@3.0.1 
+  │ ├── forever-agent@0.6.1 
+  │ ├─┬ form-data@2.1.4 
+  │ │ └── asynckit@0.4.0 
+  │ ├─┬ har-validator@4.2.1 
+  │ │ ├─┬ ajv@4.11.8 
+  │ │ │ ├── co@4.6.0 
+  │ │ │ └─┬ json-stable-stringify@1.0.1 
+  │ │ │   └── jsonify@0.0.0 
+  │ │ └── har-schema@1.0.5 
+  │ ├─┬ hawk@3.1.3 
+  │ │ ├── boom@2.10.1 
+  │ │ ├── cryptiles@2.0.5 
+  │ │ ├── hoek@2.16.3 
+  │ │ └── sntp@1.0.9 
+  │ ├─┬ http-signature@1.1.1 
+  │ │ ├── assert-plus@0.2.0 
+  │ │ ├─┬ jsprim@1.4.0 
+  │ │ │ ├── assert-plus@1.0.0 
+  │ │ │ ├── extsprintf@1.0.2 
+  │ │ │ ├── json-schema@0.2.3 
+  │ │ │ └── verror@1.3.6 
+  │ │ └─┬ sshpk@1.13.1 
+  │ │   ├── asn1@0.2.3 
+  │ │   ├── assert-plus@1.0.0 
+  │ │   ├── bcrypt-pbkdf@1.0.1 
+  │ │   ├─┬ dashdash@1.14.1 
+  │ │   │ └── assert-plus@1.0.0 
+  │ │   ├── ecc-jsbn@0.1.1 
+  │ │   ├─┬ getpass@0.1.7 
+  │ │   │ └── assert-plus@1.0.0 
+  │ │   ├── jsbn@0.1.1 
+  │ │   └── tweetnacl@0.14.5 
+  │ ├── is-typedarray@1.0.0 
+  │ ├── isstream@0.1.2 
+  │ ├── json-stringify-safe@5.0.1 
+  │ ├─┬ mime-types@2.1.15 
+  │ │ └── mime-db@1.27.0 
+  │ ├── oauth-sign@0.8.2 
+  │ ├── performance-now@0.2.0 
+  │ ├── qs@6.4.0 
+  │ ├── safe-buffer@5.1.1 
+  │ ├── stringstream@0.0.5 
+  │ ├─┬ tough-cookie@2.3.2 
+  │ │ └── punycode@1.4.1 
+  │ ├── tunnel-agent@0.6.0 
+  │ └── uuid@3.1.0 
+  ├── rimraf@2.6.1 
+  ├── semver@5.3.0 
+  ├─┬ tar@2.2.1 
+  │ └── block-stream@0.0.9 
+  └─┬ which@1.2.14 
+    └── isexe@2.0.0 
+
+Installing plugin "mobile"...
+Installing plugin "web"...
+Installing web plugin
+Installing plugin "desktop"...
+Installing plugin "plugins"...
+Installing plugin "density"...
+Installing plugin "locale"...
+Installing plugin "browser"...
+Installing plugin "sources"...
+Installing plugin "views"...
+Installing plugin "enterpriseinfo"...
+Installing plugin "logger"...
+Installing logger plugin
+Installing plugin "systemlogs"...
+Installing systemlogs plugin
+Adding systemlogs indexes
+Installing plugin "errorlogs"...
+Installing plugin "populator"...
+Installing plugin "reports"...
+Installing plugin "crashes"...
+Installing crash plugin
+Installing plugin "push"...
+Installing push plugin
+Creating certificates directory
+Adding messages indexes
+Installing plugin "star-rating"...
+Installing plugin "slipping-away-users"...
+Installing plugin "compare"...
+Installing plugin "server-stats"...
+Installing plugin "dbviewer"...
+Installing plugin "assistant"...
+Processing plugin files for production mode
+Preparing production files
+Web plugin installation finished
+Logger plugin installation finished
+Crash plugin installation finished
+Adding token indexes... It can take up to several minutes in case you have millions of users.
+Push plugin installation finished
+Systemlogs plugin installation finished
+Done installing plugin "browser"
+Done installing plugin "mobile"
+Done installing plugin "desktop"
+Done installing plugin "sources"
+Done installing plugin "density"
+Done installing plugin "locale"
+Done installing plugin "enterpriseinfo"
+Done installing plugin "compare"
+Done installing plugin "systemlogs"
+Done installing plugin "populator"
+Done installing plugin "slipping-away-users"
+Done installing plugin "server-stats"
+Done installing plugin "logger"
+Done installing plugin "plugins"
+Done installing plugin "views"
+Done installing plugin "star-rating"
+Done installing plugin "crashes"
+Done installing plugin "dbviewer"
+Done installing plugin "reports"
+Done installing plugin "web"
+Done installing plugin "errorlogs"
+Done installing plugin "assistant"
+Done installing plugin "push"
+Done preparing production files with null / "Running \"plugins\" task\nPreparing production files for following plugins: [\"mobile\",\"web\",\"desktop\",\"plugins\",\"density\",\"locale\",\"browser\",\"sources\",\"views\",\"enterpriseinfo\",\"logger\",\"systemlogs\",\"errorlogs\",\"populator\",\"reports\",\"crashes\",\"push\",\"star-rating\",\"slipping-away-users\",\"compare\",\"server-stats\",\"dbviewer\",\"assistant\"]\nDone preparing production files\n\nRunning \"concat:plugins\" (concat) task\n\nRunning \"uglify:plugins\" (uglify) task\n>> 1 file created 1.69 MB → 924.82 kB\n\nRunning \"copy:plugins\" (copy) task\nCopied 7 files\n\nRunning \"cssmin:plugins\" (cssmin) task\n>> 1 file created. 75.59 kB → 62.49 kB\n\nRunning \"locales\" task\nPreparing locale files for core & plugins: [\"mobile\",\"web\",\"desktop\",\"plugins\",\"density\",\"locale\",\"browser\",\"sources\",\"views\",\"enterpriseinfo\",\"logger\",\"systemlogs\",\"errorlogs\",\"populator\",\"reports\",\"crashes\",\"push\",\"star-rating\",\"slipping-away-users\",\"compare\",\"server-stats\",\"dbviewer\",\"assistant\"]\nDone preparing locale files\n\nRunning \"concat:locales_\" (concat) task\n\nRunning \"concat:locales_ar\" (concat) task\n\nRunning \"concat:locales_ca\" (concat) task\n\nRunning \"concat:locales_de\" (concat) task\n\nRunning \"concat:locales_el\" (concat) task\n\nRunning \"concat:locales_en\" (concat) task\n\nRunning \"concat:locales_es\" (concat) task\n\nRunning \"concat:locales_et\" (concat) task\n\nRunning \"concat:locales_fr\" (concat) task\n\nRunning \"concat:locales_hu\" (concat) task\n\nRunning \"concat:locales_it\" (concat) task\n\nRunning \"concat:locales_ja\" (concat) task\n\nRunning \"concat:locales_ko\" (concat) task\n\nRunning \"concat:locales_lv\" (concat) task\n\nRunning \"concat:locales_nb\" (concat) task\n\nRunning \"concat:locales_nl\" (concat) task\n\nRunning \"concat:locales_pt\" (concat) task\n\nRunning \"concat:locales_ro\" (concat) task\n\nRunning \"concat:locales_ru\" (concat) task\n\nRunning \"concat:locales_sl\" (concat) task\n\nRunning \"concat:locales_sv\" (concat) task\n\nRunning \"concat:locales_tr\" (concat) task\n\nRunning \"concat:locales_vi\" (concat) task\n\nRunning \"concat:locales_zh\" (concat) task\n\nRunning \"concat:locales_pl\" (concat) task\n\nDone.\n"
+countly-server@17.5.0 /home/wirddin/Projects/Countly/countly-server
+`-- countly-sdk-web@17.5.0 
+
+npm WARN countly-server@17.5.0 No license field.
+Running "concat:dom" (concat) task
+
+Running "concat:utils" (concat) task
+
+Running "concat:visualization" (concat) task
+
+Running "concat:lib" (concat) task
+
+Running "uglify:dist" (uglify) task
+>> 4 files created 2.59 MB → 1.63 MB
+
+Running "cssmin:dist" (cssmin) task
+>> 1 file created. 142.49 kB → 118.45 kB
+
+Running "plugins" task
+Preparing production files for following plugins: ["mobile","web","desktop","plugins","density","locale","browser","sources","views","enterpriseinfo","logger","systemlogs","errorlogs","populator","reports","crashes","push","star-rating","slipping-away-users","compare","server-stats","dbviewer","assistant"]
+Done preparing production files
+
+Running "concat:plugins" (concat) task
+
+Running "uglify:plugins" (uglify) task
+>> 1 file created 1.69 MB → 924.82 kB
+
+Running "copy:plugins" (copy) task
+Copied 7 files
+
+Running "cssmin:plugins" (cssmin) task
+>> 1 file created. 75.59 kB → 62.49 kB
+
+Running "locales" task
+Preparing locale files for core & plugins: ["mobile","web","desktop","plugins","density","locale","browser","sources","views","enterpriseinfo","logger","systemlogs","errorlogs","populator","reports","crashes","push","star-rating","slipping-away-users","compare","server-stats","dbviewer","assistant"]
+Done preparing locale files
+
+Running "concat:locales_" (concat) task
+
+Running "concat:locales_ar" (concat) task
+
+Running "concat:locales_ca" (concat) task
+
+Running "concat:locales_de" (concat) task
+
+Running "concat:locales_el" (concat) task
+
+Running "concat:locales_en" (concat) task
+
+Running "concat:locales_es" (concat) task
+
+Running "concat:locales_et" (concat) task
+
+Running "concat:locales_fr" (concat) task
+
+Running "concat:locales_hu" (concat) task
+
+Running "concat:locales_it" (concat) task
+
+Running "concat:locales_ja" (concat) task
+
+Running "concat:locales_ko" (concat) task
+
+Running "concat:locales_lv" (concat) task
+
+Running "concat:locales_nb" (concat) task
+
+Running "concat:locales_nl" (concat) task
+
+Running "concat:locales_pt" (concat) task
+
+Running "concat:locales_ro" (concat) task
+
+Running "concat:locales_ru" (concat) task
+
+Running "concat:locales_sl" (concat) task
+
+Running "concat:locales_sv" (concat) task
+
+Running "concat:locales_tr" (concat) task
+
+Running "concat:locales_vi" (concat) task
+
+Running "concat:locales_zh" (concat) task
+
+Running "concat:locales_pl" (concat) task
+
+Done.
+Pinging Google successful. Enabling Google services.

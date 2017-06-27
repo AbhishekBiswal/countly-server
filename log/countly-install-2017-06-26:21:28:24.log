@@ -1,0 +1,146 @@
+
+   ______                  __  __
+  / ____/___  __  ______  / /_/ /_  __
+ / /   / __ \/ / / / __ \/ __/ / / / /
+/ /___/ /_/ / /_/ / / / / /_/ / /_/ /
+\____/\____/\__,_/_/ /_/\__/_/\__, /
+              http://count.ly/____/
+
+Hit:1 http://ppa.launchpad.net/gerardpuig/ppa/ubuntu xenial InRelease
+Hit:2 http://repository.spotify.com stable InRelease
+Hit:6 http://ppa.launchpad.net/numix/ppa/ubuntu xenial InRelease
+Ign:7 http://ppa.launchpad.net/tualatrix/ppa/ubuntu xenial InRelease
+Hit:8 http://ppa.launchpad.net/ubuntu-wine/ppa/ubuntu xenial InRelease
+Hit:11 http://ppa.launchpad.net/webupd8team/haguichi/ubuntu xenial InRelease
+Ign:5 http://toolbelt.heroku.com/ubuntu ./ InRelease
+Hit:13 http://ppa.launchpad.net/webupd8team/sublime-text-3/ubuntu xenial InRelease
+Get:3 http://ppa.launchpad.net/nathan-renniewaldock/flux/ubuntu xenial InRelease [17.5 kB]
+Get:4 http://ppa.launchpad.net/nilarimogard/webupd8/ubuntu xenial InRelease [17.5 kB]
+Ign:15 http://ppa.launchpad.net/tualatrix/ppa/ubuntu xenial Release
+Get:14 http://toolbelt.heroku.com/ubuntu ./ Release [1,609 B]
+Get:10 http://ppa.launchpad.net/webupd8team/atom/ubuntu xenial InRelease [17.5 kB]
+Get:16 http://ppa.launchpad.net/nathan-renniewaldock/flux/ubuntu xenial/main amd64 Packages [540 B]
+Get:17 http://ppa.launchpad.net/nathan-renniewaldock/flux/ubuntu xenial/main i386 Packages [540 B]
+Get:19 http://ppa.launchpad.net/nilarimogard/webupd8/ubuntu xenial/main amd64 Packages [42.1 kB]
+Get:20 http://ppa.launchpad.net/nilarimogard/webupd8/ubuntu xenial/main i386 Packages [42.1 kB]
+Get:21 http://ppa.launchpad.net/nilarimogard/webupd8/ubuntu xenial/main Translation-en [26.1 kB]
+Ign:22 http://ppa.launchpad.net/tualatrix/ppa/ubuntu xenial/main amd64 Packages
+Get:18 http://toolbelt.heroku.com/ubuntu ./ Release.gpg [473 B]
+Ign:23 http://ppa.launchpad.net/tualatrix/ppa/ubuntu xenial/main i386 Packages
+Ign:24 http://ppa.launchpad.net/tualatrix/ppa/ubuntu xenial/main all Packages
+Ign:25 http://ppa.launchpad.net/tualatrix/ppa/ubuntu xenial/main Translation-en_IN
+Ign:27 http://ppa.launchpad.net/tualatrix/ppa/ubuntu xenial/main Translation-en
+Ign:29 http://ppa.launchpad.net/tualatrix/ppa/ubuntu xenial/main amd64 DEP-11 Metadata
+Get:26 http://toolbelt.heroku.com/ubuntu ./ Packages [636 B]
+Ign:30 http://ppa.launchpad.net/tualatrix/ppa/ubuntu xenial/main DEP-11 64x64 Icons
+Get:31 http://ppa.launchpad.net/webupd8team/atom/ubuntu xenial/main amd64 Packages [620 B]
+Get:32 http://ppa.launchpad.net/webupd8team/atom/ubuntu xenial/main i386 Packages [624 B]
+Ign:22 http://ppa.launchpad.net/tualatrix/ppa/ubuntu xenial/main amd64 Packages
+Get:28 https://packagecloud.io/slacktechnologies/slack/debian jessie InRelease [23.5 kB]
+Ign:23 http://ppa.launchpad.net/tualatrix/ppa/ubuntu xenial/main i386 Packages
+Ign:24 http://ppa.launchpad.net/tualatrix/ppa/ubuntu xenial/main all Packages
+Get:33 http://download.virtualbox.org/virtualbox/debian xenial InRelease [7,877 B]
+Ign:25 http://ppa.launchpad.net/tualatrix/ppa/ubuntu xenial/main Translation-en_IN
+Ign:33 http://download.virtualbox.org/virtualbox/debian xenial InRelease
+Ign:27 http://ppa.launchpad.net/tualatrix/ppa/ubuntu xenial/main Translation-en
+Ign:29 http://ppa.launchpad.net/tualatrix/ppa/ubuntu xenial/main amd64 DEP-11 Metadata
+Ign:30 http://ppa.launchpad.net/tualatrix/ppa/ubuntu xenial/main DEP-11 64x64 Icons
+Ign:22 http://ppa.launchpad.net/tualatrix/ppa/ubuntu xenial/main amd64 Packages
+Ign:23 http://ppa.launchpad.net/tualatrix/ppa/ubuntu xenial/main i386 Packages
+Ign:24 http://ppa.launchpad.net/tualatrix/ppa/ubuntu xenial/main all Packages
+Ign:25 http://ppa.launchpad.net/tualatrix/ppa/ubuntu xenial/main Translation-en_IN
+Ign:27 http://ppa.launchpad.net/tualatrix/ppa/ubuntu xenial/main Translation-en
+Ign:29 http://ppa.launchpad.net/tualatrix/ppa/ubuntu xenial/main amd64 DEP-11 Metadata
+Ign:30 http://ppa.launchpad.net/tualatrix/ppa/ubuntu xenial/main DEP-11 64x64 Icons
+Ign:22 http://ppa.launchpad.net/tualatrix/ppa/ubuntu xenial/main amd64 Packages
+Ign:23 http://ppa.launchpad.net/tualatrix/ppa/ubuntu xenial/main i386 Packages
+Ign:24 http://ppa.launchpad.net/tualatrix/ppa/ubuntu xenial/main all Packages
+Ign:25 http://ppa.launchpad.net/tualatrix/ppa/ubuntu xenial/main Translation-en_IN
+Ign:27 http://ppa.launchpad.net/tualatrix/ppa/ubuntu xenial/main Translation-en
+Ign:29 http://ppa.launchpad.net/tualatrix/ppa/ubuntu xenial/main amd64 DEP-11 Metadata
+Ign:30 http://ppa.launchpad.net/tualatrix/ppa/ubuntu xenial/main DEP-11 64x64 Icons
+Ign:22 http://ppa.launchpad.net/tualatrix/ppa/ubuntu xenial/main amd64 Packages
+Ign:23 http://ppa.launchpad.net/tualatrix/ppa/ubuntu xenial/main i386 Packages
+Ign:24 http://ppa.launchpad.net/tualatrix/ppa/ubuntu xenial/main all Packages
+Ign:25 http://ppa.launchpad.net/tualatrix/ppa/ubuntu xenial/main Translation-en_IN
+Ign:27 http://ppa.launchpad.net/tualatrix/ppa/ubuntu xenial/main Translation-en
+Ign:29 http://ppa.launchpad.net/tualatrix/ppa/ubuntu xenial/main amd64 DEP-11 Metadata
+Ign:30 http://ppa.launchpad.net/tualatrix/ppa/ubuntu xenial/main DEP-11 64x64 Icons
+Err:22 http://ppa.launchpad.net/tualatrix/ppa/ubuntu xenial/main amd64 Packages
+  404  Not Found
+Ign:23 http://ppa.launchpad.net/tualatrix/ppa/ubuntu xenial/main i386 Packages
+Ign:24 http://ppa.launchpad.net/tualatrix/ppa/ubuntu xenial/main all Packages
+Ign:25 http://ppa.launchpad.net/tualatrix/ppa/ubuntu xenial/main Translation-en_IN
+Ign:27 http://ppa.launchpad.net/tualatrix/ppa/ubuntu xenial/main Translation-en
+Ign:29 http://ppa.launchpad.net/tualatrix/ppa/ubuntu xenial/main amd64 DEP-11 Metadata
+Ign:30 http://ppa.launchpad.net/tualatrix/ppa/ubuntu xenial/main DEP-11 64x64 Icons
+Ign:35 http://dl.google.com/linux/chrome/deb stable InRelease
+Ign:36 http://download.opensuse.org/repositories/home:/Horst3180/xUbuntu_16.04  InRelease
+Get:37 http://dl.google.com/linux/chrome/deb stable Release [1,189 B]
+Get:38 http://dl.google.com/linux/chrome/deb stable Release.gpg [916 B]
+Hit:39 http://download.opensuse.org/repositories/home:/Horst3180/xUbuntu_16.04  Release
+Get:40 http://download.opensuse.org/repositories/home:/Horst3180/xUbuntu_16.04  Release.gpg [481 B]
+Get:41 http://dl.google.com/linux/chrome/deb stable/main amd64 Packages [1,392 B]
+Ign:40 http://download.opensuse.org/repositories/home:/Horst3180/xUbuntu_16.04  Release.gpg
+Get:42 http://archive.canonical.com/ubuntu xenial InRelease [11.5 kB]
+Get:43 http://archive.canonical.com/ubuntu xenial/partner Sources [2,792 B]
+Get:44 http://archive.canonical.com/ubuntu xenial/partner amd64 Packages [3,344 B]
+Get:45 http://archive.canonical.com/ubuntu xenial/partner i386 Packages [3,624 B]
+Hit:46 http://in.archive.ubuntu.com/ubuntu xenial InRelease
+Get:47 http://in.archive.ubuntu.com/ubuntu xenial-updates InRelease [102 kB]
+Get:48 http://in.archive.ubuntu.com/ubuntu xenial-backports InRelease [102 kB]
+Get:49 http://in.archive.ubuntu.com/ubuntu xenial-updates/main Sources [256 kB]
+Get:50 http://in.archive.ubuntu.com/ubuntu xenial-updates/universe Sources [161 kB]
+Get:51 http://in.archive.ubuntu.com/ubuntu xenial-updates/multiverse Sources [5,668 B]
+Get:52 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 Packages [565 kB]
+Get:53 http://in.archive.ubuntu.com/ubuntu xenial-updates/main i386 Packages [547 kB]
+Get:54 http://in.archive.ubuntu.com/ubuntu xenial-updates/main Translation-en [229 kB]
+Get:55 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 DEP-11 Metadata [298 kB]
+Get:56 http://in.archive.ubuntu.com/ubuntu xenial-updates/main DEP-11 64x64 Icons [193 kB]
+Get:57 http://in.archive.ubuntu.com/ubuntu xenial-updates/universe amd64 Packages [488 kB]
+Get:58 http://in.archive.ubuntu.com/ubuntu xenial-updates/universe i386 Packages [470 kB]
+Get:59 http://in.archive.ubuntu.com/ubuntu xenial-updates/universe Translation-en [193 kB]
+Get:60 http://in.archive.ubuntu.com/ubuntu xenial-updates/universe amd64 DEP-11 Metadata [163 kB]
+Get:61 http://in.archive.ubuntu.com/ubuntu xenial-updates/universe DEP-11 64x64 Icons [203 kB]
+Get:62 http://in.archive.ubuntu.com/ubuntu xenial-updates/multiverse amd64 Packages [8,932 B]
+Get:63 http://in.archive.ubuntu.com/ubuntu xenial-updates/multiverse i386 Packages [7,992 B]
+Get:64 http://in.archive.ubuntu.com/ubuntu xenial-updates/multiverse amd64 DEP-11 Metadata [2,520 B]
+Get:65 http://in.archive.ubuntu.com/ubuntu xenial-backports/main Sources [3,308 B]
+Get:66 http://in.archive.ubuntu.com/ubuntu xenial-backports/universe Sources [4,384 B]
+Get:67 http://in.archive.ubuntu.com/ubuntu xenial-backports/main amd64 Packages [4,688 B]
+Get:68 http://in.archive.ubuntu.com/ubuntu xenial-backports/main i386 Packages [4,692 B]
+Get:69 http://in.archive.ubuntu.com/ubuntu xenial-backports/main amd64 DEP-11 Metadata [3,328 B]
+Get:70 http://in.archive.ubuntu.com/ubuntu xenial-backports/universe amd64 Packages [5,804 B]
+Get:71 http://in.archive.ubuntu.com/ubuntu xenial-backports/universe i386 Packages [5,812 B]
+Get:72 http://in.archive.ubuntu.com/ubuntu xenial-backports/universe Translation-en [3,004 B]
+Get:73 http://in.archive.ubuntu.com/ubuntu xenial-backports/universe amd64 DEP-11 Metadata [4,672 B]
+Get:74 http://in.archive.ubuntu.com/ubuntu xenial-backports/universe DEP-11 64x64 Icons [2,716 B]
+Get:75 http://dl.yarnpkg.com/debian stable InRelease [11.5 kB]
+Get:76 http://dl.yarnpkg.com/debian stable/main amd64 Packages [5,099 B]
+Get:77 http://dl.yarnpkg.com/debian stable/main i386 Packages [5,099 B]
+Get:78 http://dl.yarnpkg.com/debian stable/main all Packages [5,099 B]
+Get:79 http://security.ubuntu.com/ubuntu xenial-security InRelease [102 kB]
+Get:80 http://security.ubuntu.com/ubuntu xenial-security/main Sources [77.8 kB]
+Get:81 http://security.ubuntu.com/ubuntu xenial-security/universe Sources [35.0 kB]
+Get:82 http://security.ubuntu.com/ubuntu xenial-security/multiverse Sources [1,144 B]
+Get:83 http://security.ubuntu.com/ubuntu xenial-security/main amd64 Packages [292 kB]
+Get:84 http://security.ubuntu.com/ubuntu xenial-security/main i386 Packages [276 kB]
+Get:85 http://security.ubuntu.com/ubuntu xenial-security/main Translation-en [124 kB]
+Get:86 http://security.ubuntu.com/ubuntu xenial-security/main amd64 DEP-11 Metadata [54.9 kB]
+Get:87 http://security.ubuntu.com/ubuntu xenial-security/main DEP-11 64x64 Icons [45.7 kB]
+Get:88 http://security.ubuntu.com/ubuntu xenial-security/universe amd64 Packages [140 kB]
+Get:89 http://security.ubuntu.com/ubuntu xenial-security/universe i386 Packages [125 kB]
+Get:90 http://security.ubuntu.com/ubuntu xenial-security/universe Translation-en [72.4 kB]
+Get:91 http://security.ubuntu.com/ubuntu xenial-security/universe amd64 DEP-11 Metadata [35.8 kB]
+Get:92 http://security.ubuntu.com/ubuntu xenial-security/universe DEP-11 64x64 Icons [57.0 kB]
+Get:93 http://security.ubuntu.com/ubuntu xenial-security/multiverse amd64 Packages [2,748 B]
+Get:94 http://security.ubuntu.com/ubuntu xenial-security/multiverse i386 Packages [2,908 B]
+Fetched 1,774 kB in 12min 14s (2,414 B/s)
+Reading package lists...
+W: The repository 'http://ppa.launchpad.net/tualatrix/ppa/ubuntu xenial Release' does not have a Release file.
+W: GPG error: http://download.virtualbox.org/virtualbox/debian xenial InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY A2F683C52980AECF
+W: The repository 'http://download.virtualbox.org/virtualbox/debian xenial InRelease' is not signed.
+W: GPG error: http://download.opensuse.org/repositories/home:/Horst3180/xUbuntu_16.04  Release: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 5A7D1D38BEB6D886
+W: The repository 'http://download.opensuse.org/repositories/home:/Horst3180/xUbuntu_16.04  Release' is not signed.
+E: Failed to fetch http://ppa.launchpad.net/tualatrix/ppa/ubuntu/dists/xenial/main/binary-amd64/Packages  404  Not Found
+E: Some index files failed to download. They have been ignored, or old ones used instead.
